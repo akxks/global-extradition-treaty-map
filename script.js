@@ -81,7 +81,7 @@ function renderSources(){const q=norm($('source-search').value);$('source-list')
 $('source-search').addEventListener('input',renderSources);renderSources();
 $('coverage-index').innerHTML=countries.map(c=>`<div><button class="text-link" data-select="${esc(c.code)}">${esc(c.name)}</button>: ${M.network(c.code).partners.length||'no'} documented partners; partial</div>`).join('');
 const ranking=M.rankings();$('largest-ranking').innerHTML=R.rankingTable(ranking.provisional);$('smallest-ranking').innerHTML=R.rankingTable(ranking.definitive,10,true);$('provisional-smallest').innerHTML=R.rankingTable(ranking.provisional,10,true);
-async function copyLink(url,status){try{await navigator.clipboard.writeText(url);$(status).textContent='Link copied.';}catch(_){$(status).innerHTML=`Copy this link: <a href="${esc(url)}">${esc(url)}</a>`;}}
+async function copyLink(url,status){try{await navigator.clipboard.writeText(url);$(status).innerHTML='Link copied. <a href="'+esc(url)+'">Open this shareable link</a>';}catch(_){$(status).innerHTML=`Copy this link: <a href="${esc(url)}">${esc(url)}</a>`;}}
 $('share-country').addEventListener('click',()=>copyLink(location.origin+'/?country='+selected+ (partner?'&partner='+partner:''),'share-status'));
 $('export-csv').addEventListener('click',()=>{const blob=new Blob([M.csv(selected)],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`extradition-${selected}-${D.referenceDate}.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);});
 // Comparisons count only UN member and observer states, not dependent territories.
