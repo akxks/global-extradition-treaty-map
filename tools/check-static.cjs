@@ -1,0 +1,14 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..');process.chdir(root);
+const files=['index.html','methodology/index.html','countries/index.html',...fs.readdirSync('countries',{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>'countries/'+d.name+'/index.html')];
+const titles=new Set(),descriptions=new Set();let links=0,structured=0;
+const idsCache=new Map();function ids(f){if(!idsCache.has(f))idsCache.set(f,new Set([...fs.readFileSync(f,'utf8').matchAll(/\bid="([^"]+)"/g)].map(m=>m[1])));return idsCache.get(f);}
+for(const f of files){const html=fs.readFileSync(f,'utf8'),title=html.match(/<title>(.*?)<\/title>/)[1],desc=html.match(/<meta name="description" content="([^"]+)"/)[1];assert(!titles.has(title),'Duplicate title: '+f);titles.add(title);assert(!descriptions.has(desc),'Duplicate description: '+f);descriptions.add(desc);assert.equal([...html.matchAll(/<h1[ >]/g)].length,1,f);assert(html.includes('rel="canonical"'));assert(html.includes('name="twitter:card"'));assert(html.includes('/assets/social-map.png'));const idList=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(idList.length,new Set(idList).size,'Duplicate IDs: '+f);
+ for(const m of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)){const d=JSON.parse(m[1]);assert(d['@graph'].some(x=>x['@type']==='WebPage'));structured++;}
+ for(const m of html.matchAll(/(?:href|src)="([^"]+)"/g)){const u=m[1].replace(/&amp;/g,'&');if(/^(https?:|data:|mailto:)/.test(u))continue;const url=new URL(u,'https://test.invalid/'+f);let target=decodeURIComponent(url.pathname).slice(1);if(target.endsWith('/'))target+='index.html';if(!target)target='index.html';assert(fs.existsSync(target),'Broken internal link '+f+' -> '+u);if(url.hash&&target.endsWith('.html')){const id=decodeURIComponent(url.hash.slice(1));assert(ids(target).has(id),'Missing target '+target+'#'+id);}links++;}
+}
+const report=JSON.parse(fs.readFileSync('coverage-report.json'));assert.equal(files.length,report.profiles+3);
+const xml=fs.readFileSync('sitemap.xml','utf8');assert.equal([...xml.matchAll(/<loc>/g)].length,files.length);assert(!xml.includes('/geo/'));
+const png=fs.readFileSync('assets/social-map.png');assert.equal(png.subarray(1,4).toString(),'PNG');assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
+const redirects=fs.readFileSync('_redirects','utf8');assert(redirects.includes('/country.json /geo/GB.json 200! Country=gb'));assert.equal(JSON.parse(fs.readFileSync('country.json')).country,null);
+console.log(JSON.stringify({result:'PASS',staticPages:files.length,uniqueTitles:titles.size,uniqueDescriptions:descriptions.size,internalLinksChecked:links,structuredDataBlocks:structured,socialImage:'1200×630 PNG',geo:'static country routing with null fallback'},null,2));

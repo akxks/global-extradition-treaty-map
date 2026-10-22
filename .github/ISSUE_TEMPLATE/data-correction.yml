@@ -1,0 +1,34 @@
+name: Treaty data correction
+description: Submit a sourced correction for review. Do not include personal case details.
+title: "Data correction: "
+body:
+  - type: input
+    id: countries
+    attributes:
+      label: Countries / jurisdictions
+      description: Country names or ISO codes involved.
+    validations:
+      required: true
+  - type: input
+    id: record
+    attributes:
+      label: Treaty record or page URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction and relevant dates
+      description: Explain the current information, proposed correction and legal effective date.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Official evidence
+      description: Link a government, depositary, official legislation or treaty source and identify the provision.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Corrections are reviewed against primary evidence before publication. Submission does not change the dataset automatically. Please omit personal case information.

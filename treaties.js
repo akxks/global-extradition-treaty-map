@@ -1,4 +1,3 @@
-/* Researched partial inventory. Access dates are not certification of complete current coverage. */
 window.TREATY_DATA = {
   "referenceDate": "2026-10-22",
   "verifiedAt": "2026-10-22",
@@ -8,7 +7,8 @@ window.TREATY_DATA = {
       "title": "Council of Europe Treaty Office — ETS 024 signatures and ratifications",
       "verifiedAt": "2026-10-22",
       "featured": true,
-      "statusDate": "2026-09-12"
+      "statusDate": "2026-09-12",
+      "accessNote": " Automated access check on 22 October 2026: HTTP 403. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-2": {
       "url": "https://treatydatabase.overheid.nl/en/Treaty/Details/006827_p.html",
@@ -27,13 +27,15 @@ window.TREATY_DATA = {
       "title": "Council of Europe — Chile declarations under ETS 024",
       "verifiedAt": "2026-10-22",
       "featured": false,
-      "statusDate": "2026-10-11"
+      "statusDate": "2026-10-11",
+      "accessNote": " Automated access check on 22 October 2026: HTTP 403. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-6": {
       "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32002F0584",
       "title": "EUR-Lex — Council Framework Decision 2002/584/JHA",
       "verifiedAt": "2026-10-22",
-      "featured": true
+      "featured": true,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-7": {
       "url": "https://data.consilium.europa.eu/doc/document/ST-5816-2025-REV-1/en/pdf",
@@ -52,13 +54,15 @@ window.TREATY_DATA = {
       "url": "https://www.consilium.europa.eu/en/documents/treaties-agreements/agreement/?docLanguage=en&id=2006056",
       "title": "Council of the EU — surrender agreement with Iceland and Norway",
       "verifiedAt": "2026-10-22",
-      "featured": true
+      "featured": true,
+      "accessNote": " Automated access check on 22 October 2026: HTTP 403. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-10": {
       "url": "https://eur-lex.europa.eu/EN/legal-content/summary/surrender-procedure-between-eu-member-states-and-iceland-and-norway.html?fromSummary=23",
       "title": "EUR-Lex — Surrender procedure between EU Member States and Iceland and Norway",
       "verifiedAt": "2026-10-22",
-      "featured": false
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-11": {
       "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%202988/v2988.pdf",
@@ -70,7 +74,8 @@ window.TREATY_DATA = {
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02021A0430%2801%29-20211201",
       "title": "EUR-Lex — EU–UK Trade and Cooperation Agreement",
       "verifiedAt": "2026-10-22",
-      "featured": true
+      "featured": true,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-13": {
       "url": "https://www.gov.uk/guidance/extradition-processes-and-review",
@@ -474,7 +479,8 @@ window.TREATY_DATA = {
       "url": "https://www.aph.gov.au/~/media/wopapub/house/committee/jsct/13june2007/treaties/hongkong_nia_pdf.ashx",
       "title": "Australian Parliament — 2007 extradition relationships annex, entry 12 (Hungary), PDF page 11",
       "verifiedAt": "2026-10-22",
-      "featured": false
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: HTTP 403. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-81": {
       "url": "https://www.legislation.gov.au/Latest/F1997B02586",
@@ -846,7 +852,8 @@ window.TREATY_DATA = {
       "url": "https://www.ag.gov.au/international-relations/international-crime-cooperation-arrangements/extradition",
       "title": "Official source — www.ag.gov.au",
       "verifiedAt": "2026-10-22",
-      "featured": false
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: connection failure / timeout. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-143": {
       "url": "https://www.legislation.gov.au/C2004A03597/latest/text",
@@ -858,7 +865,8 @@ window.TREATY_DATA = {
       "url": "https://www.legislation.govt.nz/act/public/1999/0055/latest/DLM25633.html",
       "title": "Official source — www.legislation.govt.nz",
       "verifiedAt": "2026-10-22",
-      "featured": false
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-145": {
       "url": "https://uscode.house.gov/us/usc/119-118/t18/s3181/",
@@ -948,7 +956,8 @@ window.TREATY_DATA = {
       "url": "https://www.poderjudicial.gob.hn/Noticias/SitePages/octubre2026/NPPJ02102026-01.aspx?web=1",
       "title": "Official source — www.poderjudicial.gob.hn",
       "verifiedAt": "2026-10-22",
-      "featured": false
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: connection failure / timeout. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-160": {
       "url": "https://www.oas.org/ext/es/democracia/red-hemisferica-materia-penal/estados-miembros/pais/id/247",
@@ -1044,7 +1053,8 @@ window.TREATY_DATA = {
       "url": "https://linker.lexml.gov.br/linker/processa?urn=urn:lex:br:federal:decreto:1957-07-29;41909&url=http%3A%2F%2Fwww2.camara.gov.br%2Flegin%2Ffed%2Fdecret%2F1950-1959%2Fdecreto-41909-29-julho-1957-380821-publicacaooriginal-1-pe.html&exec",
       "title": "Official source — linker.lexml.gov.br",
       "verifiedAt": "2026-10-22",
-      "featured": false
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: HTTP 403. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
     },
     "source-176": {
       "url": "https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/D9920.htm",
@@ -1541,6 +1551,951 @@ window.TREATY_DATA = {
       "title": "Extradition Treaty between the Government of the United Kingdom of Great Britain and Northern Ireland and the Government of the United States of America",
       "verifiedAt": "2026-10-22",
       "featured": false
+    },
+    "v3-sadc-text": {
+      "url": "https://www.sadc.int/sites/default/files/2021-12/Protocol_on_Extradiction.pdf",
+      "title": "SADC — Protocol on Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": true
+    },
+    "v3-sadc-un-registration": {
+      "url": "https://treaties.un.org/doc/Publication/Monthly%20Statement/2016/11/monstate.PDF",
+      "title": "United Nations Treaty Collection — November 2016 treaty statement, p. 26 (SADC deposits and entry into force)",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2016-11-21",
+      "featured": true
+    },
+    "v3-sadc-unts": {
+      "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%203158/v3158.pdf",
+      "title": "UN Treaty Series, volume 3158, A-52885, pp. 145–146 — Protocol on extradition",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2016-11-21",
+      "featured": false
+    },
+    "v3-sadc-yearbook": {
+      "url": "https://www.sadc.int/sites/default/files/2021-05/SADC_SYB_2015_Print_Version_final.pdf",
+      "title": "SADC Statistical Yearbook 2015 — Table 10.1, deposited/ratified versus signed status",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2015-07-30",
+      "featured": false
+    },
+    "v3-riyadh-participation": {
+      "url": "https://www.pacc.ps/uploads/books/2/book-101-cat-2-d-06-01-15.pdf",
+      "title": "Palestinian Anti-Corruption Commission — Riyadh Agreement, explicit ratifying-state list and treaty text (Arabic)",
+      "verifiedAt": "2026-10-22",
+      "featured": true,
+      "vintageNote": "Undated publication; latest ratification in the published list is 20 May 2001. Consultation date is not a fresh depositary certification."
+    },
+    "v3-riyadh-bahrain": {
+      "url": "https://bicc.bh/legislation/riyadh-arab-agreement-for-judicial-cooperation/",
+      "title": "Bahrain International Commercial Court — Riyadh Arab Agreement and Legislative Decree 41/1999 (English translation)",
+      "verifiedAt": "2026-10-22",
+      "featured": true
+    },
+    "v3-riyadh-uae": {
+      "url": "https://www.moj.gov.ae/content/userfiles/assets/documents/ce11fada.pdf",
+      "title": "United Arab Emirates Ministry of Justice — Guide on International Judicial Cooperation in Criminal Matters, p. 11",
+      "verifiedAt": "2026-10-22",
+      "featured": false,
+      "accessNote": "The official PDF is indexed, but direct retrieval currently returns a Request Rejected page. The ratification list and Bahrain treaty text are independently accessible. Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
+    },
+    "v3-ecowas-text": {
+      "url": "https://ecowas.int/wp-content/uploads/2024/08/Convention-on-Extradition.pdf",
+      "title": "ECOWAS — Convention A/P.1/8/94 on Extradition, Article 36 (ratification threshold)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-riyadh-somalia-2025": {
+      "url": "https://track.unodc.org/uploads/documents/UNCAC/WorkingGroups/ImplementationReviewGroup/1-5September2025/CAC-COSP-IRG-2025-CRP.10.pdf",
+      "title": "UNODC — Somalia UNCAC review executive summary, CAC/COSP/IRG/2025/CRP.10 (2025)",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2025-09-01",
+      "featured": false
+    },
+    "v3-ca-register": {
+      "url": "https://www.treaty-accord.gc.ca/result-resultat.aspx?lang=eng&subject=e8c00d15-c737-eb11-96a3-005056834bd1&type=1",
+      "title": "Global Affairs Canada — bilateral extradition treaty register (all 106 search results reviewed)",
+      "verifiedAt": "2026-10-22",
+      "featured": true,
+      "statusDate": null,
+      "notes": "The 2019-03-01 page-template footer is not an instrument-specific verification date. Results include a 2026 signature and distinguish current, suspended, signed and terminated entries."
+    },
+    "v3-ca-act": {
+      "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html",
+      "title": "Canada — Extradition Act, S.C. 1999, c. 18",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-process": {
+      "url": "https://www.justice.gc.ca/eng/cj-jp/emla-eej/tocan-aucan.html",
+      "title": "Department of Justice Canada — Extradition requests to Canada",
+      "verifiedAt": "2026-10-22",
+      "featured": true
+    },
+    "v3-ca-cz-status": {
+      "url": "https://msp.gov.cz/en/web/msp/tiskove-zpravy/-/clanek/ministr-spravedlnosti-jeron%C3%BDm-tejc-a-kanadsk%C3%A1-velvyslankyn%C4%9B-emily-mclaughlin-podepsali-smlouvu-o-vyd%C3%A1v%C3%A1n%C3%AD",
+      "title": "Czech Ministry of Justice — new Canada extradition treaty signed; 1924 basis remains pending ratification (22 June 2026)",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2026-06-22",
+      "featured": false
+    },
+    "v3-ca-cz-parliament": {
+      "url": "https://psp.cz/sqw/historie.sqw?o=10&t=264",
+      "title": "Czech Parliament — Canada extradition treaty, parliamentary paper 264",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2026-09-02",
+      "featured": false
+    },
+    "v3-ca-105283-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=105283&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between Canada and the Czech Republic (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-105016-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=105016&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the Government of Canada and the Government of the Italian Republic concerning Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-105016-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=105016&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the Government of Canada and the Government of the Italian Republic concerning Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104859-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=104859&lang=eng",
+      "title": "Global Affairs Canada — Supplementary Treaty to the Treaty between Canada and the Federal Republic of Germany concerning Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104859-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=104859&lang=eng",
+      "title": "Global Affairs Canada — Supplementary Treaty to the Treaty between Canada and the Federal Republic of Germany concerning Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103844-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103844&lang=eng",
+      "title": "Global Affairs Canada — Second Protocol amending the Treaty on Extradition between the Government of Canada and the Government of the United States of America (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103844-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103844&lang=eng",
+      "title": "Global Affairs Canada — Second Protocol amending the Treaty on Extradition between the Government of Canada and the Government of the United States of America (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103414-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103414&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between the Government of Canada and the Government of Sweden (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103414-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103414&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between the Government of Canada and the Government of Sweden (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103348-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103348&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the Government of Canada and the Government of the Republic of South Africa on Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103348-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103348&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the Government of Canada and the Government of the Republic of South Africa on Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103324-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103324&lang=eng",
+      "title": "Global Affairs Canada — Extradition Treaty between the Government of Canada and the Government of the Hellenic Republic (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103324-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103324&lang=eng",
+      "title": "Global Affairs Canada — Extradition Treaty between the Government of Canada and the Government of the Hellenic Republic (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103054-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103054&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the Government of Canada and the Government of the Republic of Austria on Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103054-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103054&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the Government of Canada and the Government of the Republic of Austria on Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101350-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101350&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between the Government of Canada and the Government of the Federative Republic of Brazil (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101342-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101342&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between Canada and the Republic of Korea (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101342-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101342&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between Canada and the Republic of Korea (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101348-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101348&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Swiss Confederation on Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101348-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101348&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Swiss Confederation on Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101336-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101336&lang=eng",
+      "title": "Global Affairs Canada — Agreement between the Government of Canada and the Government of Hong Kong for the Surrender of Fugitive Offenders (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101336-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101336&lang=eng",
+      "title": "Global Affairs Canada — Agreement between the Government of Canada and the Government of Hong Kong for the Surrender of Fugitive Offenders (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101339-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101339&lang=eng",
+      "title": "Global Affairs Canada — Treaty of Extradition between the Government of Canada and the Government of the United Mexican States (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101339-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101339&lang=eng",
+      "title": "Global Affairs Canada — Treaty of Extradition between the Government of Canada and the Government of the United Mexican States (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101341-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101341&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between Canada and the Republic of the Philippines (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101341-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101341&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between Canada and the Republic of the Philippines (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101347-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101347&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Kingdom of the Netherlands on Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101347-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101347&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Kingdom of the Netherlands on Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101346-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101346&lang=eng",
+      "title": "Global Affairs Canada — Treaty of Extradition between Canada and Spain (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101346-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101346&lang=eng",
+      "title": "Global Affairs Canada — Treaty of Extradition between Canada and Spain (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101343-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101343&lang=eng",
+      "title": "Global Affairs Canada — Extradition Treaty between the Government of Canada and the Government of the Republic of France (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101343-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101343&lang=eng",
+      "title": "Global Affairs Canada — Extradition Treaty between the Government of Canada and the Government of the Republic of France (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101349-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101349&lang=eng",
+      "title": "Global Affairs Canada — Protocol amending the Treaty on Extradition between the Government of Canada and the Government of the United States of America signed at Washington on December 3, 1971, as amended by an Exchange of Notes on June 28 and July 9, 1974 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101349-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101349&lang=eng",
+      "title": "Global Affairs Canada — Protocol amending the Treaty on Extradition between the Government of Canada and the Government of the United States of America signed at Washington on December 3, 1971, as amended by an Exchange of Notes on June 28 and July 9, 1974 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101286-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101286&lang=eng",
+      "title": "Global Affairs Canada — Extradition Treaty between the Government of Canada and the Government of India (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101286-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101286&lang=eng",
+      "title": "Global Affairs Canada — Extradition Treaty between the Government of Canada and the Government of India (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101266-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101266&lang=eng",
+      "title": "Global Affairs Canada — Exchange of Notes between the Government of Canada and the Government of Finland amending the Extradition Treaty signed June 21, 1978 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101266-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101266&lang=eng",
+      "title": "Global Affairs Canada — Exchange of Notes between the Government of Canada and the Government of Finland amending the Extradition Treaty signed June 21, 1978 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101265-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101265&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and Finland concerning Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101265-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101265&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and Finland concerning Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101262-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101262&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Kingdom of Denmark concerning Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101262-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101262&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Kingdom of Denmark concerning Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101275-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101275&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Federal Republic of Germany concerning Extradition (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101275-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101275&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Canada and the Federal Republic of Germany concerning Extradition (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101328-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101328&lang=eng",
+      "title": "Global Affairs Canada — Exchange of Notes (June 28 and July 9, 1974) between the Government of Canada and the Government of the United States of America amending the Treaty on Extradition of December 3, 1971 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101328-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101328&lang=eng",
+      "title": "Global Affairs Canada — Exchange of Notes (June 28 and July 9, 1974) between the Government of Canada and the Government of the United States of America amending the Treaty on Extradition of December 3, 1971 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101323-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101323&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between the Government of Canada and the Government of the United States of America (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101323-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101323&lang=eng",
+      "title": "Global Affairs Canada — Treaty on Extradition between the Government of Canada and the Government of the United States of America (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101287-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101287&lang=eng",
+      "title": "Global Affairs Canada — Exchange of Notes amending Article 21 of the Extradition Agreement between the Government of Canada and the Government of the State of Israel (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101287-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101287&lang=eng",
+      "title": "Global Affairs Canada — Exchange of Notes amending Article 21 of the Extradition Agreement between the Government of Canada and the Government of the State of Israel (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101288-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101288&lang=eng",
+      "title": "Global Affairs Canada — Extradition Agreement between the Government of Canada and the Government of the State of Israel (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101288-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101288&lang=eng",
+      "title": "Global Affairs Canada — Extradition Agreement between the Government of Canada and the Government of the State of Israel (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101253-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101253&lang=eng",
+      "title": "Global Affairs Canada — Supplementary Extradition Agreement between Canada and Belgium (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101253-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101253&lang=eng",
+      "title": "Global Affairs Canada — Supplementary Extradition Agreement between Canada and Belgium (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101248-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101248&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 20th October, 1928, the Treaty between His Majesty and Albania for the Extradition of Criminals, signed at Tirana the 22nd July, 1926 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101248-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101248&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 20th October, 1928, the Treaty between His Majesty and Albania for the Extradition of Criminals, signed at Tirana the 22nd July, 1926 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101264-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101264&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 18th September, 1928, the Convention between His Majesty and Estonia for the Extradition of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101264-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101264&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 18th September, 1928, the Convention between His Majesty and Estonia for the Extradition of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101292-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101292&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 18th September, 1928, the Treaty between His Majesty and the Latvian Republic for the Extradition of Fugitive Criminals, signed at Riga the 16th July, 1924 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101292-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101292&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 18th September, 1928, the Treaty between His Majesty and the Latvian Republic for the Extradition of Fugitive Criminals, signed at Riga the 16th July, 1924 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101294-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101294&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 18th September 1928, the Treaty between His Majesty and Lithuania for the Extradition of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101294-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101294&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 18th September 1928, the Treaty between His Majesty and Lithuania for the Extradition of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101260-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101260&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 15th August, 1928, the Treaty between His Majesty and Czechoslovakia, for the Extradition of Criminals signed at London the 11th November, 1924, and Amended by Protocol signed at London the 4th June, 1926 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101260-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101260&lang=eng",
+      "title": "Global Affairs Canada — Notification extending to Canada as from the 15th August, 1928, the Treaty between His Majesty and Czechoslovakia, for the Extradition of Criminals signed at London the 11th November, 1924, and Amended by Protocol signed at London the 4th June, 1926 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101278-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101278&lang=eng",
+      "title": "Global Affairs Canada — Additional Protocol of the Treaty of Extradition between Great Britain and Guatemala (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101278-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101278&lang=eng",
+      "title": "Global Affairs Canada — Additional Protocol of the Treaty of Extradition between Great Britain and Guatemala (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103417-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103417&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Siam respecting the Extradition of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103417-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103417&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Siam respecting the Extradition of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104833-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=104833&lang=eng",
+      "title": "Global Affairs Canada — Convention between the United Kingdom and Belgium amending Article 6 of the Extradition Treaty of October 29, 1901 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104833-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=104833&lang=eng",
+      "title": "Global Affairs Canada — Convention between the United Kingdom and Belgium amending Article 6 of the Extradition Treaty of October 29, 1901 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101303-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101303&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Paraguay for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101303-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101303&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Paraguay for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104835-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=104835&lang=eng",
+      "title": "Global Affairs Canada — Convention between the United Kingdom and Belgium amending Article XIV of the Treaty of Extradition October 29, 1901 (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104835-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=104835&lang=eng",
+      "title": "Global Affairs Canada — Convention between the United Kingdom and Belgium amending Article XIV of the Treaty of Extradition October 29, 1901 (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101300-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101300&lang=eng",
+      "title": "Global Affairs Canada — Supplementary Agreement between Great Britain and Norway respecting the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101300-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101300&lang=eng",
+      "title": "Global Affairs Canada — Supplementary Agreement between Great Britain and Norway respecting the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101302-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101302&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Panama for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101302-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101302&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Panama for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101299-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101299&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Nicaragua for the Mutual Extradition of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101299-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101299&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Nicaragua for the Mutual Extradition of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101259-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101259&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Cuba for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101259-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101259&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Cuba for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101304-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101304&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Peru for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101304-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101304&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Peru for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101254-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101254&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Belgium for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101254-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101254&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Belgium for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101283-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101283&lang=eng",
+      "title": "Global Affairs Canada — Declaration amending Article XI of the Treaty between Great Britain and Austria-Hungary, of December 3, 1873, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101283-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101283&lang=eng",
+      "title": "Global Affairs Canada — Declaration amending Article XI of the Treaty between Great Britain and Austria-Hungary, of December 3, 1873, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101310-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101310&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Republic of San Marino, for the Mutual Extradition of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101310-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101310&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Republic of San Marino, for the Mutual Extradition of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101257-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101257&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Chile for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101257-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101257&lang=eng",
+      "title": "Global Affairs Canada — Treaty between the United Kingdom and Chile for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101306-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101306&lang=eng",
+      "title": "Global Affairs Canada — Protocol explanatory of Paragraph 21 of Article II of the Treaty of Extradition between Great Britain and Roumania (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101306-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101306&lang=eng",
+      "title": "Global Affairs Canada — Protocol explanatory of Paragraph 21 of Article II of the Treaty of Extradition between Great Britain and Roumania (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101307-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101307&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Roumania for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101307-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101307&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Roumania for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101293-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101293&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Liberia for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101293-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101293&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Liberia for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101305-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101305&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Portugal for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101305-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101305&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Portugal for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101255-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101255&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Bolivia, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101255-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101255&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Bolivia, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101297-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101297&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Monaco for the Extradition of Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101297-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101297&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Monaco for the Extradition of Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101333-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101333&lang=eng",
+      "title": "Global Affairs Canada — Protocol between Great Britain and Uruguay, amending the Treaty of March 26, 1884, for the Mutual Extradition of Fugitive Criminals (Term of Provisional Arrest) (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101333-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101333&lang=eng",
+      "title": "Global Affairs Canada — Protocol between Great Britain and Uruguay, amending the Treaty of March 26, 1884, for the Mutual Extradition of Fugitive Criminals (Term of Provisional Arrest) (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101249-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101249&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Argentine Republic for the Mutual Extradition of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101249-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101249&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Argentine Republic for the Mutual Extradition of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101258-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101258&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Colombia for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101258-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101258&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Colombia for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104838-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=104838&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Guatemala, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-104838-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=104838&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Guatemala, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101332-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101332&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Oriental Republic of the Uruguay, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101332-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101332&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Oriental Republic of the Uruguay, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103036-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=103036&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Salvador for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-103036-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=103036&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Salvador for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101295-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101295&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Luxemburg for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101295-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101295&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Luxemburg for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101263-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101263&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Republic of the Equator, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101263-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101263&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and the Republic of the Equator, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101280-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101280&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Haiti for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101280-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101280&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Haiti for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101282-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101282&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Austria, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101282-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101282&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Austria, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101301-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101301&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Sweden and Norway for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101301-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101301&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Sweden and Norway for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101284-details": {
+      "url": "https://www.treaty-accord.gc.ca/details.aspx?id=101284&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Denmark, for the Mutual Surrender of Fugitive Criminals (status, dates and identifier)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-ca-101284-text-texte": {
+      "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?id=101284&lang=eng",
+      "title": "Global Affairs Canada — Treaty between Great Britain and Denmark, for the Mutual Surrender of Fugitive Criminals (official text)",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-nz-overview": {
+      "url": "https://www.mfat.govt.nz/en/about-us/who-we-are/extradition",
+      "title": "New Zealand Ministry of Foreign Affairs and Trade — extradition procedures and treaties",
+      "verifiedAt": "2026-10-22",
+      "featured": true
+    },
+    "v3-nz-kr-law": {
+      "url": "https://www.legislation.govt.nz/regulation/public/2002/0104/latest/whole.html",
+      "title": "New Zealand — Extradition (Republic of Korea) Order 2002 and scheduled treaty",
+      "verifiedAt": "2026-10-22",
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
+    },
+    "v3-nz-kr-un": {
+      "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%202219/v2219.pdf",
+      "title": "United Nations Treaty Series, volume 2219, No. 39456 — New Zealand–Korea extradition treaty",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-nz-kr-korean": {
+      "url": "https://www.law.go.kr/LSW/trtyBInfoP.do?trtySeq=1063",
+      "title": "Republic of Korea National Law Information Center — Treaty No. 1591",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-nz-fj-law": {
+      "url": "https://www.legislation.govt.nz/regulation/public/1992/0069/latest/whole.html",
+      "title": "New Zealand — Extradition (Republic of Fiji) Order 1992 and scheduled agreement",
+      "verifiedAt": "2026-10-22",
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
+    },
+    "v3-nz-fj-un": {
+      "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%201866/v1866.pdf",
+      "title": "United Nations Treaty Series, volume 1866, No. 31866 — New Zealand–Fiji extradition agreement",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-nz-hk-current": {
+      "url": "https://www.mfat.govt.nz/en/countries-and-regions/asia/hong-kong-sar",
+      "title": "New Zealand Ministry of Foreign Affairs and Trade — Hong Kong country profile; extradition suspension",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-nz-hk-suspended": {
+      "url": "https://www.beehive.govt.nz/release/new-zealand-suspends-extradition-treaty-hong-kong",
+      "title": "New Zealand Government — suspension of Hong Kong treaty announced 28 July 2020",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-nz-hk-revocation": {
+      "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1998/243/en/latest/LMS379096/",
+      "title": "New Zealand — Hong Kong extradition order revoked effective 31 July 2020",
+      "verifiedAt": "2026-10-22",
+      "featured": false,
+      "accessNote": " Automated access check on 22 October 2026: access challenge. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
+    },
+    "v3-hk-nz-suspended": {
+      "url": "https://www.info.gov.hk/gia/general/202008/03/P2020080300741p.htm",
+      "title": "Hong Kong Government — suspension of New Zealand legal agreements, 3 August 2020",
+      "verifiedAt": "2026-10-22",
+      "featured": false
+    },
+    "v3-hk-register": {
+      "url": "https://www.doj.gov.hk/en/external/table4ti.html",
+      "title": "Hong Kong Department of Justice — surrender agreements, status at 2 June 2026",
+      "verifiedAt": "2026-10-22",
+      "statusDate": "2026-06-02",
+      "featured": false
+    },
+    "v3-nz-hk-register": {
+      "url": "https://www.treaties.mfat.govt.nz/search/details/t/2108/230",
+      "title": "New Zealand Treaties Online — B1998/05, historical dates and explicit suspension note",
+      "verifiedAt": "2026-10-22",
+      "featured": false,
+      "accessNote": "Official indexed text was reviewed; the host failed DNS resolution during direct source-link verification. Other current government sources independently confirm suspension. Automated access check on 22 October 2026: connection failure / timeout. Direct retrieval was not confirmed; see alternate official sources and record qualifications."
+    },
+    "v3-nationality-annotation-0": {
+      "title": "State Council: China ratifies extradition treaty with Hungary",
+      "url": "https://english.www.gov.cn/news/202608/29/content_WS6a924121c6d00ca5f9a0cd9a.html",
+      "sourceDate": "2026-08-29",
+      "verifiedAt": "2026-10-22"
     }
   },
   "treaties": [
@@ -4056,14 +5011,17 @@ window.TREATY_DATA = {
       "effectiveDate": null,
       "description": "Official embassy announcement confirms signature on 30 September 2025. Entry into force has not been verified; do not count this record as an applicable treaty.",
       "sources": [
-        "source-79"
+        "source-79",
+        "v3-nationality-annotation-0"
       ],
       "verifiedAt": "2026-10-22",
       "sourceDate": "2025-10-01",
       "notes": [
-        "Official Chinese title; English display label is descriptive."
+        "Official Chinese title; English display label is descriptive.",
+        "China's official State Council report states that the NPC Standing Committee ratified the Hungary extradition treaty on 28 August 2026. This establishes the reported Chinese approval stage, not exchange of instruments or entry into force. Keep entry into force unverified without further official evidence."
       ],
-      "limitedScope": null
+      "limitedScope": null,
+      "ratificationInformation": "China's official State Council report states that the NPC Standing Committee ratified the Hungary extradition treaty on 28 August 2026. This establishes the reported Chinese approval stage, not exchange of instruments or entry into force. Keep entry into force unverified without further official evidence."
     },
     {
       "id": "au-ar-48",
@@ -7301,33 +8259,52 @@ window.TREATY_DATA = {
     {
       "id": "in-ca-157",
       "countries": [
-        "IN",
-        "CA"
+        "CA",
+        "IN"
       ],
       "countryNames": [
-        "India",
-        "Canada"
+        "Canada",
+        "India"
       ],
-      "name": "India–Canada extradition treaty",
-      "officialTitle": false,
-      "displayName": "India–Canada extradition treaty",
+      "name": "Extradition Treaty between the Government of Canada and the Government of India",
+      "officialTitle": true,
+      "displayName": "Extradition Treaty between the Government of Canada and the Government of India",
       "type": "bilateral",
       "status": "in-force",
-      "signatureDate": null,
-      "effectiveDate": null,
-      "description": "India’s Ministry of External Affairs lists this country as an extradition treaty partner. The source links to the treaty or its implementing gazette notification. Conditions and exceptions apply to individual requests.",
+      "signatureDate": "1987-02-06",
+      "effectiveDate": "1987-02-10",
+      "description": "A bilateral legal framework for extradition between Canada and India, subject to the treaty’s conditions and applicable domestic law.",
       "sources": [
         "source-92",
         "source-20",
-        "source-21"
+        "source-21",
+        "v3-ca-register",
+        "v3-ca-101286-details",
+        "v3-ca-101286-text-texte",
+        "v3-ca-act"
       ],
       "verifiedAt": "2026-10-22",
       "sourceDate": "2026-06-16",
       "notes": [
-        "Full official instrument title has not been transcribed; display label is descriptive, not an invented official title.",
-        "Date from MEA page footer, not asserted as last treaty-specific legal change."
+        "Date from MEA page footer, not asserted as last treaty-specific legal change.",
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
       ],
-      "limitedScope": "General extradition subject to instrument conditions"
+      "limitedScope": "General extradition subject to instrument conditions",
+      "signatureDates": [
+        "1987-02-06"
+      ],
+      "instrumentIdentifier": "CTS 1987/14; Canada treaty record 101286",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "researchComplete": false,
+      "nameQualification": "Official instrument title transcribed from Global Affairs Canada; earlier US/Indian source citations retained."
     },
     {
       "id": "in-cl-158",
@@ -10313,18 +11290,18 @@ window.TREATY_DATA = {
     {
       "id": "us-ca",
       "countries": [
-        "US",
-        "CA"
+        "CA",
+        "US"
       ],
       "countryNames": [
-        "United States",
-        "Canada"
+        "Canada",
+        "United States"
       ],
-      "name": "Extradition treaty",
-      "nameQualification": "Official short treaty category; pair and citation identify the instrument.",
+      "name": "Treaty on Extradition between the Government of Canada and the Government of the United States of America",
+      "nameQualification": "Official instrument title transcribed from Global Affairs Canada; earlier US/Indian source citations retained.",
       "type": "bilateral",
       "status": "in-force",
-      "description": "Bilateral extradition relationship listed in the official US Code treaty notes. Extradition remains subject to treaty conditions and domestic law.",
+      "description": "A bilateral legal framework for extradition between Canada and United States, subject to the treaty’s conditions and applicable domestic law.",
       "sourceCurrency": "US Code page legislative currency 2026-10-07; individual treaty notes have uneven update dates",
       "citation": "27 UST 983.",
       "catalogueInstruments": [
@@ -10353,14 +11330,32 @@ window.TREATY_DATA = {
       "effectiveDate": "1976-03-22",
       "verifiedAt": "2026-10-22",
       "sources": [
-        "source-145"
+        "source-145",
+        "v3-ca-register",
+        "v3-ca-101323-details",
+        "v3-ca-101323-text-texte",
+        "v3-ca-act"
       ],
-      "officialTitle": false,
+      "officialTitle": true,
       "sourceDate": "US Code page legislative currency 2026-10-07; individual treaty notes have uneven update dates",
-      "displayName": "United States – Canada extradition treaty",
+      "displayName": "Treaty on Extradition between the Government of Canada and the Government of the United States of America",
       "notes": [
-        "Official short treaty category; pair and citation identify the instrument. 27 UST 983."
-      ]
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "signatureDates": [
+        "1971-12-03"
+      ],
+      "instrumentIdentifier": "CTS 1976/3; Canada treaty record 101323",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "researchComplete": false
     },
     {
       "id": "us-cl",
@@ -16266,6 +17261,4308 @@ window.TREATY_DATA = {
       "verifiedAt": "2026-10-22",
       "officialTitleVerified": true,
       "officialTitle": true
+    },
+    {
+      "id": "sadc-extradition-protocol-2002",
+      "name": "Protocol on Extradition of the Southern African Development Community",
+      "officialTitle": true,
+      "instrumentIdentifier": "UNTS A-52885; volume 3158, p. 145",
+      "type": "multilateral",
+      "status": "in-force",
+      "signatureDate": "2002-10-03",
+      "effectiveDate": "2006-09-01",
+      "members": {
+        "AO": {
+          "name": "Angola",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2006-07-17",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "BW": {
+          "name": "Botswana",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2002-10-03",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "LS": {
+          "name": "Lesotho",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2004-08-06",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "MW": {
+          "name": "Malawi",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2005-08-14",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "MU": {
+          "name": "Mauritius",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2004-01-19",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "ZA": {
+          "name": "South Africa",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2003-06-16",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "SZ": {
+          "name": "Eswatini",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2006-08-01",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "TZ": {
+          "name": "Tanzania",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2003-08-20",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "ZM": {
+          "name": "Zambia",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2004-08-09",
+          "effectiveDate": "2006-09-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "NA": {
+          "name": "Namibia",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2007-02-01",
+          "depositDate": "2007-02-01",
+          "effectiveDate": "2007-03-01",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        },
+        "CD": {
+          "name": "Democratic Republic of the Congo",
+          "signatureDate": "2002-10-03",
+          "ratificationOrAccessionDate": "2008-05-19",
+          "depositDate": "2008-05-19",
+          "effectiveDate": "2008-06-19",
+          "status": "in-force",
+          "sources": [
+            "v3-sadc-un-registration"
+          ]
+        }
+      },
+      "pairMode": "all-members",
+      "description": "An extradition framework between verified parties, applied alongside domestic law and treaty refusal grounds. The dataset includes only parties whose deposits and effective dates are confirmed by the United Nations registration.",
+      "sources": [
+        "v3-sadc-text",
+        "v3-sadc-un-registration",
+        "v3-sadc-unts",
+        "v3-sadc-yearbook"
+      ],
+      "verifiedAt": "2026-10-22",
+      "sourceDate": "2016-11-21",
+      "notes": [
+        "The general entry-into-force date and participation dates follow the SADC registration with the United Nations. Some older government summaries give conflicting dates.",
+        "Article 19 makes bilateral extradition agreements complementary; the Protocol prevails where provisions conflict. This does not automatically terminate those bilateral treaties.",
+        "The 11 included states form a verified subset, not a declaration that all other SADC states are non-parties. Later participation and the 2019 amendment require further depositary research.",
+        "Ratification and entry into force are distinct from guaranteed surrender. Domestic law, offence thresholds and refusal grounds apply."
+      ],
+      "reservations": "A complete current inventory of reservations and declarations has not been verified. Consult the treaty and requested state’s law.",
+      "territorialApplicability": "Country-level parties only; no separate territorial extensions are inferred.",
+      "domesticLegislation": "Domestic implementation has not been exhaustively audited for all parties. South African implementation is published in Government Gazette 35368, Notice 405, 25 May 2012.",
+      "incompleteFields": [
+        "currentReservations",
+        "allDomesticLegislation",
+        "2019AmendmentParticipation",
+        "latestDepositaryRoster"
+      ]
+    },
+    {
+      "id": "riyadh-arab-judicial-cooperation-1983",
+      "name": "Riyadh Arab Agreement for Judicial Cooperation",
+      "officialTitle": true,
+      "nativeTitle": "اتفاقية الرياض العربية للتعاون القضائي",
+      "instrumentIdentifier": "Council of Arab Ministers of Justice resolution No. 1, 6 April 1983; Part VI, Articles 38–57",
+      "type": "multilateral",
+      "status": "in-force",
+      "signatureDate": "1983-04-06",
+      "effectiveDate": "1985-10-30",
+      "members": {
+        "PS": {
+          "name": "State of Palestine",
+          "ratificationOrAccessionDate": "1983-11-28",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "IQ": {
+          "name": "Iraq",
+          "ratificationOrAccessionDate": "1984-03-16",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "YE": {
+          "name": "Yemen",
+          "ratificationOrAccessionDate": null,
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "The list records both predecessor states: Democratic Yemen ratified 1984-04-13 and Yemen Arab Republic 1984-06-11. It presents these under the Republic of Yemen; no single unified-state deposit date is supplied."
+        },
+        "SD": {
+          "name": "Sudan",
+          "ratificationOrAccessionDate": "1984-11-26",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "MR": {
+          "name": "Mauritania",
+          "ratificationOrAccessionDate": "1985-06-17",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "SY": {
+          "name": "Syria",
+          "ratificationOrAccessionDate": "1985-09-30",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "SO": {
+          "name": "Somalia",
+          "ratificationOrAccessionDate": "1985-10-02",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation",
+            "v3-riyadh-somalia-2025"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "TN": {
+          "name": "Tunisia",
+          "ratificationOrAccessionDate": "1985-10-29",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "JO": {
+          "name": "Jordan",
+          "ratificationOrAccessionDate": "1986-01-17",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "MA": {
+          "name": "Morocco",
+          "ratificationOrAccessionDate": "1987-03-30",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "LY": {
+          "name": "Libya",
+          "ratificationOrAccessionDate": "1988-01-06",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "AE": {
+          "name": "United Arab Emirates",
+          "ratificationOrAccessionDate": "1999-05-11",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "OM": {
+          "name": "Oman",
+          "ratificationOrAccessionDate": "1999-07-28",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "BH": {
+          "name": "Bahrain",
+          "ratificationOrAccessionDate": "2000-01-23",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established.",
+          "nationalLegislation": "Legislative Decree No. 41 of 1999; the international participation date in the government list is distinct from the domestic decree date."
+        },
+        "SA": {
+          "name": "Saudi Arabia",
+          "ratificationOrAccessionDate": "2000-05-11",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        },
+        "DZ": {
+          "name": "Algeria",
+          "ratificationOrAccessionDate": "2001-05-20",
+          "signatureDate": null,
+          "effectiveDate": null,
+          "status": "in-force",
+          "sources": [
+            "v3-riyadh-participation"
+          ],
+          "dateNote": "Date is labelled ratification in the government list; individual deposit/effective date not independently established."
+        }
+      },
+      "pairMode": "all-members",
+      "description": "Part VI provides for extradition between contracting states, subject to specified exceptions. The included countries come from an explicit government-published ratification list, rather than Arab League membership.",
+      "sources": [
+        "v3-riyadh-participation",
+        "v3-riyadh-bahrain",
+        "v3-riyadh-uae",
+        "v3-riyadh-somalia-2025"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "This is a verified subset from a historical official list. The list’s latest recorded ratification is 2001; its publication and current completeness are unspecified. The 2026 verification date records this research, not a new depositary certification.",
+        "Individual dates are published as ratification dates and are not substituted for treaty entry-into-force dates. The general date 30 October 1985 is not every party’s effective date.",
+        "Article 39 permits refusal to extradite nationals with a corresponding prosecution undertaking within the state’s jurisdiction; nationality is assessed at the time of the alleged offence. This is not a blanket immunity.",
+        "Article 41 and other rules restrict extradition in particular cases. Article 72 replaces specified 1952 Arab League agreements between states that ratified this Agreement.",
+        "Article 69 was amended in 1997. Its state-specific amendment coverage, current reservations and practical territorial reach are not exhaustively verified. Other applicable treaties and human-rights obligations must also be considered.",
+        "Somalia’s continuing party status is also expressly confirmed in the 2025 UNODC implementation review. Other parties have different source vintages; the historical list remains the participation baseline."
+      ],
+      "reservations": "A complete current reservation and declaration inventory is unverified; Article 70 restricts incompatible reservations.",
+      "territorialApplicability": "Included state parties only. Operational jurisdiction, conflict-related limitations and special territorial applications are not assessed.",
+      "domesticLegislation": "Bahrain Legislative Decree No. 41 of 1999 is linked. Domestic implementation for every other party remains incomplete.",
+      "incompleteFields": [
+        "individualEffectiveDates",
+        "allDepositDates",
+        "currentReservations",
+        "allDomesticLegislation",
+        "amendmentParticipation",
+        "latestDepositaryRoster"
+      ]
+    },
+    {
+      "id": "somalia-dj-extradition-unodc-2025",
+      "name": "Somalia–Djibouti treaty covering extradition and mutual legal assistance",
+      "displayName": "Somalia–Djibouti extradition treaty (official title unverified)",
+      "officialTitle": false,
+      "instrumentIdentifier": null,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "SO",
+        "DJ"
+      ],
+      "countryNames": [
+        "Somalia",
+        "Djibouti"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "description": "The 2025 United Nations implementation review expressly confirms that Somalia is a party to a bilateral treaty with Djibouti covering extradition and mutual legal assistance. The exact instrument text and dates were not recovered.",
+      "sources": [
+        "v3-riyadh-somalia-2025"
+      ],
+      "verifiedAt": "2026-10-22",
+      "sourceDate": "2025-09-01",
+      "notes": [
+        "Existence and extradition scope are supported by the official review, p. 12; the treaty text, official title, ratification/deposit dates and entry into force remain unverified.",
+        "This record is not a claim that every legal condition or subsequent change has been exhaustively checked."
+      ],
+      "reservations": "Unverified; official bilateral text is still needed.",
+      "territorialApplicability": "Only the two named countries; no territorial extension inferred.",
+      "domesticLegislation": "Somali Criminal Procedure Code provisions are discussed in the linked UNODC review; bilateral implementing measures are unverified.",
+      "incompleteFields": [
+        "officialTitle",
+        "signatureDate",
+        "effectiveDate",
+        "ratification",
+        "reservations",
+        "bilateralText"
+      ]
+    },
+    {
+      "id": "somalia-eg-extradition-unodc-2025",
+      "name": "Somalia–Egypt treaty covering extradition and mutual legal assistance",
+      "displayName": "Somalia–Egypt extradition treaty (official title unverified)",
+      "officialTitle": false,
+      "instrumentIdentifier": null,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "SO",
+        "EG"
+      ],
+      "countryNames": [
+        "Somalia",
+        "Egypt"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "description": "The 2025 United Nations implementation review expressly confirms that Somalia is a party to a bilateral treaty with Egypt covering extradition and mutual legal assistance. The exact instrument text and dates were not recovered.",
+      "sources": [
+        "v3-riyadh-somalia-2025"
+      ],
+      "verifiedAt": "2026-10-22",
+      "sourceDate": "2025-09-01",
+      "notes": [
+        "Existence and extradition scope are supported by the official review, p. 12; the treaty text, official title, ratification/deposit dates and entry into force remain unverified.",
+        "This record is not a claim that every legal condition or subsequent change has been exhaustively checked."
+      ],
+      "reservations": "Unverified; official bilateral text is still needed.",
+      "territorialApplicability": "Only the two named countries; no territorial extension inferred.",
+      "domesticLegislation": "Somali Criminal Procedure Code provisions are discussed in the linked UNODC review; bilateral implementing measures are unverified.",
+      "incompleteFields": [
+        "officialTitle",
+        "signatureDate",
+        "effectiveDate",
+        "ratification",
+        "reservations",
+        "bilateralText"
+      ]
+    },
+    {
+      "id": "somalia-qa-extradition-unodc-2025",
+      "name": "Somalia–Qatar treaty covering extradition and mutual legal assistance",
+      "displayName": "Somalia–Qatar extradition treaty (official title unverified)",
+      "officialTitle": false,
+      "instrumentIdentifier": null,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "SO",
+        "QA"
+      ],
+      "countryNames": [
+        "Somalia",
+        "Qatar"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "description": "The 2025 United Nations implementation review expressly confirms that Somalia is a party to a bilateral treaty with Qatar covering extradition and mutual legal assistance. The exact instrument text and dates were not recovered.",
+      "sources": [
+        "v3-riyadh-somalia-2025"
+      ],
+      "verifiedAt": "2026-10-22",
+      "sourceDate": "2025-09-01",
+      "notes": [
+        "Existence and extradition scope are supported by the official review, p. 12; the treaty text, official title, ratification/deposit dates and entry into force remain unverified.",
+        "This record is not a claim that every legal condition or subsequent change has been exhaustively checked."
+      ],
+      "reservations": "Unverified; official bilateral text is still needed.",
+      "territorialApplicability": "Only the two named countries; no territorial extension inferred.",
+      "domesticLegislation": "Somali Criminal Procedure Code provisions are discussed in the linked UNODC review; bilateral implementing measures are unverified.",
+      "incompleteFields": [
+        "officialTitle",
+        "signatureDate",
+        "effectiveDate",
+        "ratification",
+        "reservations",
+        "bilateralText"
+      ]
+    },
+    {
+      "id": "somalia-tr-extradition-unodc-2025",
+      "name": "Somalia–Türkiye treaty covering extradition and mutual legal assistance",
+      "displayName": "Somalia–Türkiye extradition treaty (official title unverified)",
+      "officialTitle": false,
+      "instrumentIdentifier": null,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "SO",
+        "TR"
+      ],
+      "countryNames": [
+        "Somalia",
+        "Türkiye"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "description": "The 2025 United Nations implementation review expressly confirms that Somalia is a party to a bilateral treaty with Türkiye covering extradition and mutual legal assistance. The exact instrument text and dates were not recovered.",
+      "sources": [
+        "v3-riyadh-somalia-2025"
+      ],
+      "verifiedAt": "2026-10-22",
+      "sourceDate": "2025-09-01",
+      "notes": [
+        "Existence and extradition scope are supported by the official review, p. 12; the treaty text, official title, ratification/deposit dates and entry into force remain unverified.",
+        "This record is not a claim that every legal condition or subsequent change has been exhaustively checked."
+      ],
+      "reservations": "Unverified; official bilateral text is still needed.",
+      "territorialApplicability": "Only the two named countries; no territorial extension inferred.",
+      "domesticLegislation": "Somali Criminal Procedure Code provisions are discussed in the linked UNODC review; bilateral implementing measures are unverified.",
+      "incompleteFields": [
+        "officialTitle",
+        "signatureDate",
+        "effectiveDate",
+        "ratification",
+        "reservations",
+        "bilateralText"
+      ]
+    },
+    {
+      "id": "somalia-ae-extradition-unodc-2025",
+      "name": "Somalia–United Arab Emirates treaty covering extradition and mutual legal assistance",
+      "displayName": "Somalia–United Arab Emirates extradition treaty (official title unverified)",
+      "officialTitle": false,
+      "instrumentIdentifier": null,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "SO",
+        "AE"
+      ],
+      "countryNames": [
+        "Somalia",
+        "United Arab Emirates"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "description": "The 2025 United Nations implementation review expressly confirms that Somalia is a party to a bilateral treaty with United Arab Emirates covering extradition and mutual legal assistance. The exact instrument text and dates were not recovered.",
+      "sources": [
+        "v3-riyadh-somalia-2025"
+      ],
+      "verifiedAt": "2026-10-22",
+      "sourceDate": "2025-09-01",
+      "notes": [
+        "Existence and extradition scope are supported by the official review, p. 12; the treaty text, official title, ratification/deposit dates and entry into force remain unverified.",
+        "This record is not a claim that every legal condition or subsequent change has been exhaustively checked."
+      ],
+      "reservations": "Unverified; official bilateral text is still needed.",
+      "territorialApplicability": "Only the two named countries; no territorial extension inferred.",
+      "domesticLegislation": "Somali Criminal Procedure Code provisions are discussed in the linked UNODC review; bilateral implementing measures are unverified.",
+      "incompleteFields": [
+        "officialTitle",
+        "signatureDate",
+        "effectiveDate",
+        "ratification",
+        "reservations",
+        "bilateralText"
+      ]
+    },
+    {
+      "id": "ca-105283",
+      "name": "Treaty on Extradition between Canada and the Czech Republic",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "entry-into-force-unverified",
+      "countries": [
+        "CA",
+        "CZ"
+      ],
+      "countryNames": [
+        "Canada",
+        "Czechia"
+      ],
+      "signatureDate": "2026-06-22",
+      "signatureDates": [
+        "2026-06-22"
+      ],
+      "effectiveDate": null,
+      "instrumentIdentifier": "Canada treaty record 105283",
+      "description": "Signed on 22 June 2026, but no entry into force is recorded by the Canadian register. It is not counted as an active instrument; the older extradition basis is recorded separately.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-105283-details",
+        "v3-ca-act",
+        "v3-ca-cz-status",
+        "v3-ca-cz-parliament"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "Czech parliamentary paper 264 records the ratification process. Signature alone does not replace the existing agreement."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-105016",
+      "name": "Treaty between the Government of Canada and the Government of the Italian Republic concerning Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "IT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Italy"
+      ],
+      "signatureDate": "2005-01-13",
+      "signatureDates": [
+        "2005-01-13"
+      ],
+      "effectiveDate": "2010-11-17",
+      "instrumentIdentifier": "CTS 2010/23; Canada treaty record 105016",
+      "description": "A bilateral legal framework for extradition between Canada and Italy, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-105016-details",
+        "v3-ca-105016-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Article V prevents refusal solely because the person is a national. Article XXII replaces the earlier Canada–Italy treaty, with rules preserving some earlier requests."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-104859",
+      "name": "Supplementary Treaty to the Treaty between Canada and the Federal Republic of Germany concerning Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "DE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Germany"
+      ],
+      "signatureDate": "2002-05-13",
+      "signatureDates": [
+        "2002-05-13"
+      ],
+      "effectiveDate": "2004-10-23",
+      "instrumentIdentifier": "CTS 2004/5; Canada treaty record 104859",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-104859-details",
+        "v3-ca-104859-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-103844",
+      "name": "Second Protocol amending the Treaty on Extradition between the Government of Canada and the Government of the United States of America",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "countryNames": [
+        "Canada",
+        "United States"
+      ],
+      "signatureDate": "2001-01-12",
+      "signatureDates": [
+        "2001-01-12"
+      ],
+      "effectiveDate": "2003-04-30",
+      "instrumentIdentifier": "CTS 2003/11; Canada treaty record 103844",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103844-details",
+        "v3-ca-103844-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-103414",
+      "name": "Treaty on Extradition between the Government of Canada and the Government of Sweden",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "SE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Sweden"
+      ],
+      "signatureDate": "2000-02-15",
+      "signatureDates": [
+        "2000-02-15"
+      ],
+      "effectiveDate": "2001-10-30",
+      "instrumentIdentifier": "CTS 2001/28; Canada treaty record 103414",
+      "description": "A bilateral legal framework for extradition between Canada and Sweden, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103414-details",
+        "v3-ca-103414-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-103348",
+      "name": "Treaty between the Government of Canada and the Government of the Republic of South Africa on Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "ZA"
+      ],
+      "countryNames": [
+        "Canada",
+        "South Africa"
+      ],
+      "signatureDate": "1999-11-12",
+      "signatureDates": [
+        "1999-11-12"
+      ],
+      "effectiveDate": "2001-05-04",
+      "instrumentIdentifier": "CTS 2001/20; Canada treaty record 103348",
+      "description": "A bilateral legal framework for extradition between Canada and South Africa, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103348-details",
+        "v3-ca-103348-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-103324",
+      "name": "Extradition Treaty between the Government of Canada and the Government of the Hellenic Republic",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "GR"
+      ],
+      "countryNames": [
+        "Canada",
+        "Greece"
+      ],
+      "signatureDate": "1999-11-03",
+      "signatureDates": [
+        "1999-11-03"
+      ],
+      "effectiveDate": "2016-03-01",
+      "instrumentIdentifier": "CTS 2016/2; Canada treaty record 103324",
+      "description": "A bilateral legal framework for extradition between Canada and Greece, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103324-details",
+        "v3-ca-103324-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-103054",
+      "name": "Treaty between the Government of Canada and the Government of the Republic of Austria on Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "AT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Austria"
+      ],
+      "signatureDate": "1998-10-05",
+      "signatureDates": [
+        "1998-10-05"
+      ],
+      "effectiveDate": "2000-10-01",
+      "instrumentIdentifier": "CTS 2000/15; Canada treaty record 103054",
+      "description": "A bilateral legal framework for extradition between Canada and Austria, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103054-details",
+        "v3-ca-103054-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101350",
+      "name": "Treaty on Extradition between the Government of Canada and the Government of the Federative Republic of Brazil",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "entry-into-force-unverified",
+      "countries": [
+        "CA",
+        "BR"
+      ],
+      "countryNames": [
+        "Canada",
+        "Brazil"
+      ],
+      "signatureDate": "1995-01-27",
+      "signatureDates": [
+        "1995-01-27"
+      ],
+      "effectiveDate": null,
+      "instrumentIdentifier": "Canada treaty record 101350",
+      "description": "Canada’s register lists this 1995 treaty as signed, with no entry-into-force date. It is not counted as an active bilateral extradition treaty.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101350-details",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101342",
+      "name": "Treaty on Extradition between Canada and the Republic of Korea",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "KR"
+      ],
+      "countryNames": [
+        "Canada",
+        "South Korea"
+      ],
+      "signatureDate": "1994-04-15",
+      "signatureDates": [
+        "1994-04-15"
+      ],
+      "effectiveDate": "1995-01-29",
+      "instrumentIdentifier": "CTS 1995/22; Canada treaty record 101342",
+      "description": "A bilateral legal framework for extradition between Canada and South Korea, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101342-details",
+        "v3-ca-101342-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101348",
+      "name": "Treaty between Canada and the Swiss Confederation on Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "CH"
+      ],
+      "countryNames": [
+        "Canada",
+        "Switzerland"
+      ],
+      "signatureDate": "1993-10-07",
+      "signatureDates": [
+        "1993-10-07"
+      ],
+      "effectiveDate": "1996-03-19",
+      "instrumentIdentifier": "CTS 1996/15; Canada treaty record 101348",
+      "description": "A bilateral legal framework for extradition between Canada and Switzerland, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101348-details",
+        "v3-ca-101348-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101336",
+      "name": "Agreement between the Government of Canada and the Government of Hong Kong for the Surrender of Fugitive Offenders",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "suspended",
+      "countries": [
+        "CA",
+        "HK"
+      ],
+      "countryNames": [
+        "Canada",
+        "Hong Kong"
+      ],
+      "signatureDate": "1993-09-07",
+      "signatureDates": [
+        "1993-09-07"
+      ],
+      "effectiveDate": "1997-06-13",
+      "instrumentIdentifier": "CTS 1997/9; Canada treaty record 101336",
+      "description": "The Canada–Hong Kong surrender agreement entered into force in 1997. Canada’s register records its suspension on 3 July 2020, so it is excluded from active treaty highlighting.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101336-details",
+        "v3-ca-101336-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [],
+      "researchComplete": false,
+      "suspensionDate": "2020-07-03"
+    },
+    {
+      "id": "ca-101339",
+      "name": "Treaty of Extradition between the Government of Canada and the Government of the United Mexican States",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "MX"
+      ],
+      "countryNames": [
+        "Canada",
+        "Mexico"
+      ],
+      "signatureDate": "1990-03-16",
+      "signatureDates": [
+        "1990-03-16"
+      ],
+      "effectiveDate": "1990-10-21",
+      "instrumentIdentifier": "CTS 1990/35; Canada treaty record 101339",
+      "description": "A bilateral legal framework for extradition between Canada and Mexico, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101339-details",
+        "v3-ca-101339-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101341",
+      "name": "Treaty on Extradition between Canada and the Republic of the Philippines",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "PH"
+      ],
+      "countryNames": [
+        "Canada",
+        "Philippines"
+      ],
+      "signatureDate": "1989-11-07",
+      "signatureDates": [
+        "1989-11-07"
+      ],
+      "effectiveDate": "1990-11-12",
+      "instrumentIdentifier": "CTS 1990/36; Canada treaty record 101341",
+      "description": "A bilateral legal framework for extradition between Canada and Philippines, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101341-details",
+        "v3-ca-101341-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101347",
+      "name": "Treaty between Canada and the Kingdom of the Netherlands on Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "NL"
+      ],
+      "countryNames": [
+        "Canada",
+        "Netherlands"
+      ],
+      "signatureDate": "1989-10-13",
+      "signatureDates": [
+        "1989-10-13"
+      ],
+      "effectiveDate": "1991-12-01",
+      "instrumentIdentifier": "CTS 1991/32; Canada treaty record 101347",
+      "description": "A bilateral legal framework for extradition between Canada and Netherlands, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101347-details",
+        "v3-ca-101347-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Article 3 distinguishes extradition for prosecution from extradition to enforce a sentence; nationality alone cannot bar a prosecution request under that article. Territorial application must be checked separately."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101346",
+      "name": "Treaty of Extradition between Canada and Spain",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "ES"
+      ],
+      "countryNames": [
+        "Canada",
+        "Spain"
+      ],
+      "signatureDate": "1989-05-31",
+      "signatureDates": [
+        "1989-05-31"
+      ],
+      "effectiveDate": "1990-08-15",
+      "instrumentIdentifier": "CTS 1990/39; Canada treaty record 101346",
+      "description": "A bilateral legal framework for extradition between Canada and Spain, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101346-details",
+        "v3-ca-101346-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101343",
+      "name": "Extradition Treaty between the Government of Canada and the Government of the Republic of France",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "FR"
+      ],
+      "countryNames": [
+        "Canada",
+        "France"
+      ],
+      "signatureDate": "1988-11-17",
+      "signatureDates": [
+        "1988-11-17"
+      ],
+      "effectiveDate": "1989-12-01",
+      "instrumentIdentifier": "CTS 1989/38; Canada treaty record 101343",
+      "description": "A bilateral legal framework for extradition between Canada and France, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101343-details",
+        "v3-ca-101343-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Article 3 does not oblige a state to extradite its nationals and assesses nationality at the date of the offence. Article 25 replaces the older inherited agreement for requests within its temporal scope."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101349",
+      "name": "Protocol amending the Treaty on Extradition between the Government of Canada and the Government of the United States of America signed at Washington on December 3, 1971, as amended by an Exchange of Notes on June 28 and July 9, 1974",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "countryNames": [
+        "Canada",
+        "United States"
+      ],
+      "signatureDate": "1988-01-11",
+      "signatureDates": [
+        "1988-01-11"
+      ],
+      "effectiveDate": "1991-11-26",
+      "instrumentIdentifier": "CTS 1991/37; Canada treaty record 101349",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101349-details",
+        "v3-ca-101349-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101266",
+      "name": "Exchange of Notes between the Government of Canada and the Government of Finland amending the Extradition Treaty signed June 21, 1978",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "FI"
+      ],
+      "countryNames": [
+        "Canada",
+        "Finland"
+      ],
+      "signatureDate": "1983-11-01",
+      "signatureDates": [
+        "1983-11-01"
+      ],
+      "effectiveDate": "1985-02-16",
+      "instrumentIdentifier": "CTS 1985/15; Canada treaty record 101266",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101266-details",
+        "v3-ca-101266-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101265",
+      "name": "Treaty between Canada and Finland concerning Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "FI"
+      ],
+      "countryNames": [
+        "Canada",
+        "Finland"
+      ],
+      "signatureDate": "1978-06-21",
+      "signatureDates": [
+        "1978-06-21"
+      ],
+      "effectiveDate": "1985-02-16",
+      "instrumentIdentifier": "CTS 1985/15; Canada treaty record 101265",
+      "description": "A bilateral legal framework for extradition between Canada and Finland, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101265-details",
+        "v3-ca-101265-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101262",
+      "name": "Treaty between Canada and the Kingdom of Denmark concerning Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "DK"
+      ],
+      "countryNames": [
+        "Canada",
+        "Denmark"
+      ],
+      "signatureDate": "1977-11-30",
+      "signatureDates": [
+        "1977-11-30"
+      ],
+      "effectiveDate": "1979-02-13",
+      "instrumentIdentifier": "CTS 1979/4; Canada treaty record 101262",
+      "description": "A bilateral legal framework for extradition between Canada and Denmark, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101262-details",
+        "v3-ca-101262-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101275",
+      "name": "Treaty between Canada and the Federal Republic of Germany concerning Extradition",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "DE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Germany"
+      ],
+      "signatureDate": "1977-07-11",
+      "signatureDates": [
+        "1977-07-11"
+      ],
+      "effectiveDate": "1979-09-30",
+      "instrumentIdentifier": "CTS 1979/18; Canada treaty record 101275",
+      "description": "A bilateral legal framework for extradition between Canada and Germany, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101275-details",
+        "v3-ca-101275-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Read with the supplementary treaty signed 13 May 2002, effective 23 October 2004. Article V does not oblige either party to extradite its nationals; domestic law still controls the decision."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101328",
+      "name": "Exchange of Notes (June 28 and July 9, 1974) between the Government of Canada and the Government of the United States of America amending the Treaty on Extradition of December 3, 1971",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "countryNames": [
+        "Canada",
+        "United States"
+      ],
+      "signatureDate": "1974-06-28",
+      "signatureDates": [
+        "1974-06-28",
+        "1974-07-09"
+      ],
+      "effectiveDate": "1976-03-22",
+      "instrumentIdentifier": "CTS 1976/3; Canada treaty record 101328",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101328-details",
+        "v3-ca-101328-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The instrument consists of documents dated 28 June 1974, 09 July 1974. The first document date is displayed as the signature date.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101287",
+      "name": "Exchange of Notes amending Article 21 of the Extradition Agreement between the Government of Canada and the Government of the State of Israel",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "IL"
+      ],
+      "countryNames": [
+        "Canada",
+        "Israel"
+      ],
+      "signatureDate": "1969-02-04",
+      "signatureDates": [
+        "1969-02-04"
+      ],
+      "effectiveDate": "1969-12-19",
+      "instrumentIdentifier": "CTS 1969/25; Canada treaty record 101287",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101287-details",
+        "v3-ca-101287-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101288",
+      "name": "Extradition Agreement between the Government of Canada and the Government of the State of Israel",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "IL"
+      ],
+      "countryNames": [
+        "Canada",
+        "Israel"
+      ],
+      "signatureDate": "1967-03-10",
+      "signatureDates": [
+        "1967-03-10"
+      ],
+      "effectiveDate": "1969-12-19",
+      "instrumentIdentifier": "CTS 1969/25; Canada treaty record 101288",
+      "description": "A bilateral legal framework for extradition between Canada and Israel, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101288-details",
+        "v3-ca-101288-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101253",
+      "name": "Supplementary Extradition Agreement between Canada and Belgium",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "BE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Belgium"
+      ],
+      "signatureDate": "1966-12-21",
+      "signatureDates": [
+        "1966-12-21"
+      ],
+      "effectiveDate": "1969-01-12",
+      "instrumentIdentifier": "CTS 1969/19; Canada treaty record 101253",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101253-details",
+        "v3-ca-101253-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101248",
+      "name": "Notification extending to Canada as from the 20th October, 1928, the Treaty between His Majesty and Albania for the Extradition of Criminals, signed at Tirana the 22nd July, 1926",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "AL"
+      ],
+      "countryNames": [
+        "Canada",
+        "Albania"
+      ],
+      "signatureDate": "1928-10-20",
+      "signatureDates": [
+        "1928-10-20"
+      ],
+      "effectiveDate": "1928-10-20",
+      "instrumentIdentifier": "CTS 1928/14; Canada treaty record 101248",
+      "description": "A bilateral legal framework for extradition between Canada and Albania, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101248-details",
+        "v3-ca-101248-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101264",
+      "name": "Notification extending to Canada as from the 18th September, 1928, the Convention between His Majesty and Estonia for the Extradition of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "EE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Estonia"
+      ],
+      "signatureDate": "1928-09-18",
+      "signatureDates": [
+        "1928-09-18"
+      ],
+      "effectiveDate": "1928-09-18",
+      "instrumentIdentifier": "CTS 1928/10; Canada treaty record 101264",
+      "description": "A bilateral legal framework for extradition between Canada and Estonia, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101264-details",
+        "v3-ca-101264-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101292",
+      "name": "Notification extending to Canada as from the 18th September, 1928, the Treaty between His Majesty and the Latvian Republic for the Extradition of Fugitive Criminals, signed at Riga the 16th July, 1924",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "LV"
+      ],
+      "countryNames": [
+        "Canada",
+        "Latvia"
+      ],
+      "signatureDate": "1928-09-18",
+      "signatureDates": [
+        "1928-09-18"
+      ],
+      "effectiveDate": "1928-09-18",
+      "instrumentIdentifier": "CTS 1928/12; Canada treaty record 101292",
+      "description": "A bilateral legal framework for extradition between Canada and Latvia, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101292-details",
+        "v3-ca-101292-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101294",
+      "name": "Notification extending to Canada as from the 18th September 1928, the Treaty between His Majesty and Lithuania for the Extradition of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "LT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Lithuania"
+      ],
+      "signatureDate": "1928-09-18",
+      "signatureDates": [
+        "1928-09-18"
+      ],
+      "effectiveDate": "1928-09-18",
+      "instrumentIdentifier": "CTS 1928/11; Canada treaty record 101294",
+      "description": "A bilateral legal framework for extradition between Canada and Lithuania, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101294-details",
+        "v3-ca-101294-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101260",
+      "name": "Notification extending to Canada as from the 15th August, 1928, the Treaty between His Majesty and Czechoslovakia, for the Extradition of Criminals signed at London the 11th November, 1924, and Amended by Protocol signed at London the 4th June, 1926",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "CZ"
+      ],
+      "countryNames": [
+        "Canada",
+        "Czechia"
+      ],
+      "signatureDate": "1928-08-15",
+      "signatureDates": [
+        "1928-08-15"
+      ],
+      "effectiveDate": "1928-08-15",
+      "instrumentIdentifier": "CTS 1928/8; Canada treaty record 101260",
+      "description": "Canada’s 1928 notification applies the 1924 extradition treaty, as amended in 1926. The Czech Ministry of Justice confirms this remains the legal basis pending entry into force of the new 2026 treaty.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101260-details",
+        "v3-ca-101260-text-texte",
+        "v3-ca-act",
+        "v3-ca-cz-status"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Canadian applicability began on 15 August 1928 by notification; the underlying treaty was signed on 11 November 1924 and amended on 4 June 1926.",
+        "Current applicability to Czechia is corroborated by its Ministry of Justice on 22 June 2026. The newly signed 2026 treaty is not treated as in force. Slovak succession is left for a separate current applicability audit."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101278",
+      "name": "Additional Protocol of the Treaty of Extradition between Great Britain and Guatemala",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "GT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Guatemala"
+      ],
+      "signatureDate": "1914-05-30",
+      "signatureDates": [
+        "1914-05-30"
+      ],
+      "effectiveDate": "1914-05-30",
+      "instrumentIdentifier": "Canada treaty record 101278",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101278-details",
+        "v3-ca-101278-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-103417",
+      "name": "Treaty between the United Kingdom and Siam respecting the Extradition of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "TH"
+      ],
+      "countryNames": [
+        "Canada",
+        "Thailand"
+      ],
+      "signatureDate": "1911-03-04",
+      "signatureDates": [
+        "1911-03-04"
+      ],
+      "effectiveDate": "1911-11-24",
+      "instrumentIdentifier": "Canada treaty record 103417",
+      "description": "A bilateral legal framework for extradition between Canada and Thailand, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103417-details",
+        "v3-ca-103417-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-104833",
+      "name": "Convention between the United Kingdom and Belgium amending Article 6 of the Extradition Treaty of October 29, 1901",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "BE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Belgium"
+      ],
+      "signatureDate": "1911-03-03",
+      "signatureDates": [
+        "1911-03-03"
+      ],
+      "effectiveDate": "1911-08-25",
+      "instrumentIdentifier": "Canada treaty record 104833",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-104833-details",
+        "v3-ca-104833-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101303",
+      "name": "Treaty between the United Kingdom and Paraguay for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "PY"
+      ],
+      "countryNames": [
+        "Canada",
+        "Paraguay"
+      ],
+      "signatureDate": "1908-09-12",
+      "signatureDates": [
+        "1908-09-12"
+      ],
+      "effectiveDate": "1911-07-17",
+      "instrumentIdentifier": "Canada treaty record 101303",
+      "description": "A bilateral legal framework for extradition between Canada and Paraguay, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101303-details",
+        "v3-ca-101303-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-104835",
+      "name": "Convention between the United Kingdom and Belgium amending Article XIV of the Treaty of Extradition October 29, 1901",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "BE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Belgium"
+      ],
+      "signatureDate": "1907-03-05",
+      "signatureDates": [
+        "1907-03-05"
+      ],
+      "effectiveDate": "1907-07-19",
+      "instrumentIdentifier": "Canada treaty record 104835",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-104835-details",
+        "v3-ca-104835-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101300",
+      "name": "Supplementary Agreement between Great Britain and Norway respecting the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "NO"
+      ],
+      "countryNames": [
+        "Canada",
+        "Norway"
+      ],
+      "signatureDate": "1907-02-18",
+      "signatureDates": [
+        "1907-02-18"
+      ],
+      "effectiveDate": "1907-02-18",
+      "instrumentIdentifier": "Canada treaty record 101300",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101300-details",
+        "v3-ca-101300-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101302",
+      "name": "Treaty between the United Kingdom and Panama for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "PA"
+      ],
+      "countryNames": [
+        "Canada",
+        "Panama"
+      ],
+      "signatureDate": "1906-08-25",
+      "signatureDates": [
+        "1906-08-25"
+      ],
+      "effectiveDate": "1907-08-26",
+      "instrumentIdentifier": "Canada treaty record 101302",
+      "description": "A bilateral legal framework for extradition between Canada and Panama, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101302-details",
+        "v3-ca-101302-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101299",
+      "name": "Treaty between Great Britain and Nicaragua for the Mutual Extradition of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "NI"
+      ],
+      "countryNames": [
+        "Canada",
+        "Nicaragua"
+      ],
+      "signatureDate": "1905-04-19",
+      "signatureDates": [
+        "1905-04-19"
+      ],
+      "effectiveDate": "1906-05-25",
+      "instrumentIdentifier": "Canada treaty record 101299",
+      "description": "A bilateral legal framework for extradition between Canada and Nicaragua, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101299-details",
+        "v3-ca-101299-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101259",
+      "name": "Treaty between the United Kingdom and Cuba for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "CU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Cuba"
+      ],
+      "signatureDate": "1904-10-03",
+      "signatureDates": [
+        "1904-10-03"
+      ],
+      "effectiveDate": "1905-05-22",
+      "instrumentIdentifier": "Canada treaty record 101259",
+      "description": "A bilateral legal framework for extradition between Canada and Cuba, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101259-details",
+        "v3-ca-101259-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101304",
+      "name": "Treaty between the United Kingdom and Peru for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "PE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Peru"
+      ],
+      "signatureDate": "1904-01-26",
+      "signatureDates": [
+        "1904-01-26"
+      ],
+      "effectiveDate": "1907-05-20",
+      "instrumentIdentifier": "Canada treaty record 101304",
+      "description": "A bilateral legal framework for extradition between Canada and Peru, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101304-details",
+        "v3-ca-101304-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101254",
+      "name": "Treaty between the United Kingdom and Belgium for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "BE"
+      ],
+      "countryNames": [
+        "Canada",
+        "Belgium"
+      ],
+      "signatureDate": "1901-10-29",
+      "signatureDates": [
+        "1901-10-29"
+      ],
+      "effectiveDate": "1902-03-17",
+      "instrumentIdentifier": "Canada treaty record 101254",
+      "description": "A bilateral legal framework for extradition between Canada and Belgium, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101254-details",
+        "v3-ca-101254-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101283",
+      "name": "Declaration amending Article XI of the Treaty between Great Britain and Austria-Hungary, of December 3, 1873, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "HU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Hungary"
+      ],
+      "signatureDate": "1901-06-26",
+      "signatureDates": [
+        "1901-06-26"
+      ],
+      "effectiveDate": "1902-10-06",
+      "instrumentIdentifier": "Canada treaty record 101283",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101283-details",
+        "v3-ca-101283-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101310",
+      "name": "Treaty between Great Britain and the Republic of San Marino, for the Mutual Extradition of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "SM"
+      ],
+      "countryNames": [
+        "Canada",
+        "San Marino"
+      ],
+      "signatureDate": "1899-10-16",
+      "signatureDates": [
+        "1899-10-16"
+      ],
+      "effectiveDate": "1900-03-19",
+      "instrumentIdentifier": "Canada treaty record 101310",
+      "description": "A bilateral legal framework for extradition between Canada and San Marino, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101310-details",
+        "v3-ca-101310-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101257",
+      "name": "Treaty between the United Kingdom and Chile for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "CL"
+      ],
+      "countryNames": [
+        "Canada",
+        "Chile"
+      ],
+      "signatureDate": "1897-01-26",
+      "signatureDates": [
+        "1897-01-26"
+      ],
+      "effectiveDate": "1898-08-22",
+      "instrumentIdentifier": "Canada treaty record 101257",
+      "description": "A bilateral legal framework for extradition between Canada and Chile, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101257-details",
+        "v3-ca-101257-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101306",
+      "name": "Protocol explanatory of Paragraph 21 of Article II of the Treaty of Extradition between Great Britain and Roumania",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "RO"
+      ],
+      "countryNames": [
+        "Canada",
+        "Romania"
+      ],
+      "signatureDate": "1894-03-13",
+      "signatureDates": [
+        "1894-03-13"
+      ],
+      "effectiveDate": "1894-03-13",
+      "instrumentIdentifier": "Canada treaty record 101306",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101306-details",
+        "v3-ca-101306-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101307",
+      "name": "Treaty between Great Britain and Roumania for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "RO"
+      ],
+      "countryNames": [
+        "Canada",
+        "Romania"
+      ],
+      "signatureDate": "1893-03-21",
+      "signatureDates": [
+        "1893-03-21"
+      ],
+      "effectiveDate": "1894-05-21",
+      "instrumentIdentifier": "Canada treaty record 101307",
+      "description": "A bilateral legal framework for extradition between Canada and Romania, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101307-details",
+        "v3-ca-101307-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101293",
+      "name": "Treaty between Great Britain and Liberia for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "LR"
+      ],
+      "countryNames": [
+        "Canada",
+        "Liberia"
+      ],
+      "signatureDate": "1892-12-16",
+      "signatureDates": [
+        "1892-12-16"
+      ],
+      "effectiveDate": "1894-03-23",
+      "instrumentIdentifier": "Canada treaty record 101293",
+      "description": "A bilateral legal framework for extradition between Canada and Liberia, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101293-details",
+        "v3-ca-101293-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101305",
+      "name": "Treaty between Great Britain and Portugal for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "PT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Portugal"
+      ],
+      "signatureDate": "1892-10-17",
+      "signatureDates": [
+        "1892-10-17"
+      ],
+      "effectiveDate": "1894-03-19",
+      "instrumentIdentifier": "Canada treaty record 101305",
+      "description": "A bilateral legal framework for extradition between Canada and Portugal, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101305-details",
+        "v3-ca-101305-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101255",
+      "name": "Treaty between Great Britain and Bolivia, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "BO"
+      ],
+      "countryNames": [
+        "Canada",
+        "Bolivia"
+      ],
+      "signatureDate": "1892-02-22",
+      "signatureDates": [
+        "1892-02-22"
+      ],
+      "effectiveDate": "1898-11-04",
+      "instrumentIdentifier": "Canada treaty record 101255",
+      "description": "A bilateral legal framework for extradition between Canada and Bolivia, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101255-details",
+        "v3-ca-101255-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101297",
+      "name": "Treaty between Great Britain and Monaco for the Extradition of Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "MC"
+      ],
+      "countryNames": [
+        "Canada",
+        "Monaco"
+      ],
+      "signatureDate": "1891-12-17",
+      "signatureDates": [
+        "1891-12-17"
+      ],
+      "effectiveDate": null,
+      "instrumentIdentifier": "Canada treaty record 101297",
+      "description": "A bilateral legal framework for extradition between Canada and Monaco, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101297-details",
+        "v3-ca-101297-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "The register gives 23 May 1882 as entry into force but 17 December 1891 as signature, an impossible chronology. The effective date is therefore left unverified; the register’s In Force status is retained separately."
+      ],
+      "researchComplete": false,
+      "dateConflict": true
+    },
+    {
+      "id": "ca-101333",
+      "name": "Protocol between Great Britain and Uruguay, amending the Treaty of March 26, 1884, for the Mutual Extradition of Fugitive Criminals (Term of Provisional Arrest)",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "UY"
+      ],
+      "countryNames": [
+        "Canada",
+        "Uruguay"
+      ],
+      "signatureDate": "1891-03-20",
+      "signatureDates": [
+        "1891-03-20"
+      ],
+      "effectiveDate": "1891-12-07",
+      "instrumentIdentifier": "Canada treaty record 101333",
+      "description": "A bilateral instrument amending or supplementing the parties’ existing extradition treaty. Read it together with the base treaty; it does not add an extra partner to the network count.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101333-details",
+        "v3-ca-101333-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "Amendment or supplement to the underlying treaty; this instrument does not add an extra partner to network totals."
+      ],
+      "researchComplete": false,
+      "instrumentRole": "amendment-or-supplement"
+    },
+    {
+      "id": "ca-101249",
+      "name": "Treaty between Great Britain and the Argentine Republic for the Mutual Extradition of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "AR"
+      ],
+      "countryNames": [
+        "Canada",
+        "Argentina"
+      ],
+      "signatureDate": "1889-05-22",
+      "signatureDates": [
+        "1889-05-22"
+      ],
+      "effectiveDate": "1894-02-09",
+      "instrumentIdentifier": "Canada treaty record 101249",
+      "description": "A bilateral legal framework for extradition between Canada and Argentina, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101249-details",
+        "v3-ca-101249-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101258",
+      "name": "Treaty between Great Britain and Colombia for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "CO"
+      ],
+      "countryNames": [
+        "Canada",
+        "Colombia"
+      ],
+      "signatureDate": "1888-10-27",
+      "signatureDates": [
+        "1888-10-27"
+      ],
+      "effectiveDate": "1889-12-16",
+      "instrumentIdentifier": "Canada treaty record 101258",
+      "description": "A bilateral legal framework for extradition between Canada and Colombia, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101258-details",
+        "v3-ca-101258-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-104838",
+      "name": "Treaty between Great Britain and Guatemala, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "GT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Guatemala"
+      ],
+      "signatureDate": "1885-07-04",
+      "signatureDates": [
+        "1885-07-04"
+      ],
+      "effectiveDate": "1886-12-13",
+      "instrumentIdentifier": "Canada treaty record 104838",
+      "description": "A bilateral legal framework for extradition between Canada and Guatemala, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-104838-details",
+        "v3-ca-104838-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101332",
+      "name": "Treaty between Great Britain and the Oriental Republic of the Uruguay, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "UY"
+      ],
+      "countryNames": [
+        "Canada",
+        "Uruguay"
+      ],
+      "signatureDate": "1884-03-26",
+      "signatureDates": [
+        "1884-03-26"
+      ],
+      "effectiveDate": "1885-03-20",
+      "instrumentIdentifier": "Canada treaty record 101332",
+      "description": "A bilateral legal framework for extradition between Canada and Uruguay, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101332-details",
+        "v3-ca-101332-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-103036",
+      "name": "Treaty between Great Britain and Salvador for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "SV"
+      ],
+      "countryNames": [
+        "Canada",
+        "El Salvador"
+      ],
+      "signatureDate": "1881-06-23",
+      "signatureDates": [
+        "1881-06-23"
+      ],
+      "effectiveDate": "1883-01-13",
+      "instrumentIdentifier": "Canada treaty record 103036",
+      "description": "A bilateral legal framework for extradition between Canada and El Salvador, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-103036-details",
+        "v3-ca-103036-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101295",
+      "name": "Treaty between Great Britain and Luxemburg for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "LU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Luxembourg"
+      ],
+      "signatureDate": "1880-11-24",
+      "signatureDates": [
+        "1880-11-24"
+      ],
+      "effectiveDate": "1881-03-15",
+      "instrumentIdentifier": "Canada treaty record 101295",
+      "description": "A bilateral legal framework for extradition between Canada and Luxembourg, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101295-details",
+        "v3-ca-101295-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101263",
+      "name": "Treaty between Great Britain and the Republic of the Equator, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "EC"
+      ],
+      "countryNames": [
+        "Canada",
+        "Ecuador"
+      ],
+      "signatureDate": "1880-09-20",
+      "signatureDates": [
+        "1880-09-20"
+      ],
+      "effectiveDate": "1886-07-02",
+      "instrumentIdentifier": "Canada treaty record 101263",
+      "description": "A bilateral legal framework for extradition between Canada and Ecuador, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101263-details",
+        "v3-ca-101263-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101280",
+      "name": "Treaty between Great Britain and Haiti for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "HT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Haiti"
+      ],
+      "signatureDate": "1874-12-07",
+      "signatureDates": [
+        "1874-12-07"
+      ],
+      "effectiveDate": "1876-02-21",
+      "instrumentIdentifier": "Canada treaty record 101280",
+      "description": "A bilateral legal framework for extradition between Canada and Haiti, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101280-details",
+        "v3-ca-101280-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101282",
+      "name": "Treaty between Great Britain and Austria, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "HU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Hungary"
+      ],
+      "signatureDate": "1873-12-03",
+      "signatureDates": [
+        "1873-12-03"
+      ],
+      "effectiveDate": "1874-03-30",
+      "instrumentIdentifier": "Canada treaty record 101282",
+      "description": "A bilateral legal framework for extradition between Canada and Hungary, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101282-details",
+        "v3-ca-101282-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories.",
+        "The register specifically identifies Hungary as the present party. Article II’s nationality qualification and Article III’s political-offence restriction remain important; the 1901 amendment is separately recorded."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101301",
+      "name": "Treaty between Great Britain and Sweden and Norway for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "NO"
+      ],
+      "countryNames": [
+        "Canada",
+        "Norway"
+      ],
+      "signatureDate": "1873-06-26",
+      "signatureDates": [
+        "1873-06-26"
+      ],
+      "effectiveDate": "1873-10-17",
+      "instrumentIdentifier": "Canada treaty record 101301",
+      "description": "A bilateral legal framework for extradition between Canada and Norway, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101301-details",
+        "v3-ca-101301-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-101284",
+      "name": "Treaty between Great Britain and Denmark, for the Mutual Surrender of Fugitive Criminals",
+      "officialTitle": true,
+      "type": "bilateral",
+      "status": "in-force",
+      "countries": [
+        "CA",
+        "IS"
+      ],
+      "countryNames": [
+        "Canada",
+        "Iceland"
+      ],
+      "signatureDate": "1873-03-31",
+      "signatureDates": [
+        "1873-03-31"
+      ],
+      "effectiveDate": "1873-07-07",
+      "instrumentIdentifier": "Canada treaty record 101284",
+      "description": "A bilateral legal framework for extradition between Canada and Iceland, subject to the treaty’s conditions and applicable domestic law.",
+      "sources": [
+        "v3-ca-register",
+        "v3-ca-101284-details",
+        "v3-ca-101284-text-texte",
+        "v3-ca-act"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Not separately verified; the register reports the entry-into-force date where established.",
+      "reservations": "Reservations, declarations and case-specific restrictions have not been comprehensively reviewed. Consult the linked instrument and implementing law.",
+      "territorialApplicability": "Country-level relationship only. Extension to separately mapped territories has not been verified.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition Act, S.C. 1999, c. 18 (Canada)",
+          "url": "https://laws.justice.gc.ca/eng/acts/E-23.01/FullText.html"
+        }
+      ],
+      "notes": [
+        "The in-force classification is the status reported by Global Affairs Canada in the register reviewed on 22 October 2026. It is not a guarantee of surrender in an individual case.",
+        "The historical title names an earlier sovereign or uses an earlier country name. This record covers Canada and the present partner specifically identified by the Canadian treaty register; it does not automatically extend to other former territories."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-ag",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "AG"
+      ],
+      "countryNames": [
+        "Canada",
+        "Antigua and Barbuda"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Antigua and Barbuda as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-au",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "AU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Australia"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Australia as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-bs",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "BS"
+      ],
+      "countryNames": [
+        "Canada",
+        "Bahamas"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Bahamas as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-bb",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "BB"
+      ],
+      "countryNames": [
+        "Canada",
+        "Barbados"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Barbados as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-bw",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "BW"
+      ],
+      "countryNames": [
+        "Canada",
+        "Botswana"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Botswana as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-cr",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "CR"
+      ],
+      "countryNames": [
+        "Canada",
+        "Costa Rica"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Costa Rica as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-gh",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "GH"
+      ],
+      "countryNames": [
+        "Canada",
+        "Ghana"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Ghana as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-gd",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "GD"
+      ],
+      "countryNames": [
+        "Canada",
+        "Grenada"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Grenada as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-gy",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "GY"
+      ],
+      "countryNames": [
+        "Canada",
+        "Guyana"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Guyana as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-jm",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "JM"
+      ],
+      "countryNames": [
+        "Canada",
+        "Jamaica"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Jamaica as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-jp",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "JP"
+      ],
+      "countryNames": [
+        "Canada",
+        "Japan"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Japan as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-ls",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "LS"
+      ],
+      "countryNames": [
+        "Canada",
+        "Lesotho"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Lesotho as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-mv",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "MV"
+      ],
+      "countryNames": [
+        "Canada",
+        "Maldives"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Maldives as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-mt",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "MT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Malta"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Malta as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-mu",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "MU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Mauritius"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Mauritius as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-na",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "NA"
+      ],
+      "countryNames": [
+        "Canada",
+        "Namibia"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Namibia as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-nr",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "NR"
+      ],
+      "countryNames": [
+        "Canada",
+        "Nauru"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Nauru as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-nz",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "NZ"
+      ],
+      "countryNames": [
+        "Canada",
+        "New Zealand"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates New Zealand as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-pg",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "PG"
+      ],
+      "countryNames": [
+        "Canada",
+        "Papua New Guinea"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Papua New Guinea as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-sg",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "SG"
+      ],
+      "countryNames": [
+        "Canada",
+        "Singapore"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Singapore as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-sb",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "SB"
+      ],
+      "countryNames": [
+        "Canada",
+        "Solomon Islands"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Solomon Islands as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-za",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "ZA"
+      ],
+      "countryNames": [
+        "Canada",
+        "South Africa"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates South Africa as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-kn",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "KN"
+      ],
+      "countryNames": [
+        "Canada",
+        "Saint Kitts and Nevis"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Saint Kitts and Nevis as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-lc",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "LC"
+      ],
+      "countryNames": [
+        "Canada",
+        "Saint Lucia"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Saint Lucia as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-vc",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "VC"
+      ],
+      "countryNames": [
+        "Canada",
+        "Saint Vincent and the Grenadines"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Saint Vincent and the Grenadines as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-sz",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "SZ"
+      ],
+      "countryNames": [
+        "Canada",
+        "Eswatini"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Eswatini as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-tt",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "TT"
+      ],
+      "countryNames": [
+        "Canada",
+        "Trinidad and Tobago"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Trinidad and Tobago as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-tv",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "TV"
+      ],
+      "countryNames": [
+        "Canada",
+        "Tuvalu"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Tuvalu as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-gb",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "GB"
+      ],
+      "countryNames": [
+        "Canada",
+        "United Kingdom"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates United Kingdom as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-vu",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "VU"
+      ],
+      "countryNames": [
+        "Canada",
+        "Vanuatu"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Vanuatu as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "ca-designated-zw",
+      "name": "Extradition Act — Schedule: States or Entities Designated as Extradition Partners",
+      "officialTitle": true,
+      "type": "arrangement",
+      "status": "domestic-basis",
+      "countries": [
+        "CA",
+        "ZW"
+      ],
+      "countryNames": [
+        "Canada",
+        "Zimbabwe"
+      ],
+      "signatureDate": null,
+      "effectiveDate": null,
+      "instrumentIdentifier": "S.C. 1999, c. 18, sections 2 and 9 and Schedule",
+      "description": "Canada designates Zimbabwe as an extradition partner under its domestic Extradition Act. This is a Canadian statutory basis, not proof of a bilateral treaty or a reciprocal obligation by the other state.",
+      "direction": "from-CA",
+      "sources": [
+        "v3-ca-act",
+        "v3-ca-process"
+      ],
+      "verifiedAt": "2026-10-22",
+      "notes": [
+        "Not counted as a verified reciprocal treaty relationship. The other state’s applicable law and any international instrument require separate verification."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "v3-nz-kr",
+      "name": "Treaty on Extradition between New Zealand and the Republic of Korea",
+      "officialTitle": true,
+      "countries": [
+        "NZ",
+        "KR"
+      ],
+      "countryNames": [
+        "New Zealand",
+        "South Korea"
+      ],
+      "type": "bilateral",
+      "status": "in-force",
+      "signatureDate": "2001-05-15",
+      "effectiveDate": "2002-04-27",
+      "instrumentIdentifier": "NZTS 2002 No. 58; UNTS No. 39456; SR 2002/104",
+      "description": "A reciprocal extradition treaty covering prosecution, trial and sentence enforcement, subject to dual criminality and the treaty’s refusal grounds.",
+      "sources": [
+        "v3-nz-overview",
+        "v3-nz-kr-law",
+        "v3-nz-kr-un",
+        "v3-nz-kr-korean"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Entry into force by notification under Article 20. Separate internal ratification dates have not been verified.",
+      "reservations": "Not comprehensively audited. The treaty text contains mandatory and discretionary refusal grounds.",
+      "territorialApplicability": "Article 20(4) excludes Tokelau unless the parties exchange notes agreeing application; no such extension is assumed.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition (Republic of Korea) Order 2002 (SR 2002/104)",
+          "url": "https://www.legislation.govt.nz/regulation/public/2002/0104/latest/whole.html"
+        }
+      ],
+      "notes": [
+        "The United Nations registration and New Zealand treaty register give 27 April 2002. Korea’s National Law Information Center gives 17 April 2002. The displayed date follows the UN registration; the discrepancy requires further diplomatic-record verification."
+      ],
+      "dateConflict": true,
+      "researchComplete": false
+    },
+    {
+      "id": "v3-nz-fj",
+      "name": "Agreement on Extradition between the Government of New Zealand and the Government of the Republic of Fiji",
+      "officialTitle": true,
+      "countries": [
+        "NZ",
+        "FJ"
+      ],
+      "countryNames": [
+        "New Zealand",
+        "Fiji"
+      ],
+      "type": "bilateral",
+      "status": "in-force",
+      "signatureDate": "1992-03-21",
+      "effectiveDate": "1992-04-14",
+      "instrumentIdentifier": "NZTS 1992 No. 3; UNTS No. 31866; SR 1992/69",
+      "description": "A reciprocal extradition agreement for the offences specified in the treaty, subject to its conditions and domestic legal safeguards.",
+      "sources": [
+        "v3-nz-overview",
+        "v3-nz-fj-law",
+        "v3-nz-fj-un"
+      ],
+      "verifiedAt": "2026-10-22",
+      "ratification": "Article XIX provides for entry into force on exchange of ratifications. The UN records entry into force on 14 April 1992.",
+      "reservations": "Not comprehensively audited.",
+      "territorialApplicability": "Country-level relationship; no extension to separate territories is assumed.",
+      "domesticLegislation": [
+        {
+          "name": "Extradition (Republic of Fiji) Order 1992 (SR 1992/69)",
+          "url": "https://www.legislation.govt.nz/regulation/public/1992/0069/latest/whole.html"
+        }
+      ],
+      "notes": [
+        "A list-based bilateral instrument; the fact that the countries have a treaty does not establish that a particular offence or request qualifies."
+      ],
+      "researchComplete": false
+    },
+    {
+      "id": "v3-nz-hk",
+      "name": "Agreement for the Surrender of Accused and Convicted Persons between the Government of New Zealand and the Government of the Hong Kong Special Administrative Region of the People's Republic of China",
+      "officialTitle": true,
+      "countries": [
+        "NZ",
+        "HK"
+      ],
+      "countryNames": [
+        "New Zealand",
+        "Hong Kong"
+      ],
+      "type": "bilateral",
+      "status": "suspended",
+      "signatureDate": "1998-04-03",
+      "effectiveDate": null,
+      "instrumentIdentifier": "New Zealand treaty code B1998/05",
+      "description": "The agreement is suspended. New Zealand’s current Hong Kong country profile confirms the suspension, and the implementing extradition order was revoked in 2020. It is excluded from active partner counts.",
+      "sources": [
+        "v3-nz-hk-current",
+        "v3-nz-hk-suspended",
+        "v3-nz-hk-revocation",
+        "v3-hk-nz-suspended",
+        "v3-hk-register",
+        "v3-nz-hk-register"
+      ],
+      "verifiedAt": "2026-10-22",
+      "suspensionDate": "2020-07-27",
+      "notes": [
+        "New Zealand’s treaty-register summary records suspension by third-person note effective 27 July 2020; the public announcement followed on 28 July, and revocation of the implementing order took effect on 31 July. Hong Kong issued its suspension notice on 3 August 2020.",
+        "The treaty register’s generic In Force label is qualified by its explicit suspension note; the suspension controls this map.",
+        "The NZ Treaties Online record was available through indexed official text but its host could not be resolved during direct link checks. Signature and original effective dates remain historical metadata, not a claim of current operation.",
+        "The New Zealand register gives 1 October 1998 for original entry into force; Hong Kong’s 2026 official list gives 23 October 1998. The effective date is left unverified pending reconciliation. Both authorities confirm the agreement is suspended."
+      ],
+      "researchComplete": false,
+      "dateConflict": true
     }
   ],
   "negatives": [
@@ -16317,7 +21614,9 @@ window.TREATY_DATA = {
     "AU": "Bilateral treaties, specifically listed Commonwealth arrangements and New Zealand surrender are distinguished. One-way domestic regulation records appear only in relationship details. Australian source lists date from 2019 or 2024; coverage is not certified complete through October 2026.",
     "US": "US Code treaty notes include historic entries. Known obsolete entries have been corrected or excluded, but all supplements and successor-state issues have not been comprehensively audited. Consult the cited instrument and current government advice.",
     "BR": "Brazil’s official bilateral inventory is dated September 2026. CPLP relationships use verified ratifications, not organisation membership; the Brazil–Portugal bilateral basis is superseded.",
-    "IN": "India’s official list distinguishes treaties and other arrangements. The Italy and Croatia arrangements are limited to narcotics offences. Some official titles and exact dates remain untranscribed."
+    "IN": "India’s official list distinguishes treaties and other arrangements. The Italy and Croatia arrangements are limited to narcotics offences. Some official titles and exact dates remain untranscribed.",
+    "CA": "Canada’s official treaty register was checked for active, signed, suspended and historical instruments. Amendments do not add partners. Statutory extradition designations are recorded separately as domestic law, not reciprocal treaties. Successor-state and territorial coverage remain incomplete.",
+    "NZ": "Verified treaty and backing-of-warrants routes are distinguished. The Hong Kong agreement is suspended; historical inherited treaty coverage remains incomplete. Sources disagree on some dates, which are flagged in the relevant records."
   },
   "gaps": [
     "Every country is selectable, but worldwide treaty research is incomplete. No country is certified as exhaustively researched; blue relationships are positive findings from the cited sources.",
@@ -16326,6 +21625,20 @@ window.TREATY_DATA = {
     "Offence-specific UN conventions, all national reservations, additional protocols, territorial extensions, practical suspensions and transitional cases are not comprehensively encoded.",
     "Some official inventories are older than October 2026. The date of research is an access date; it is not certification that every subsequent legal development has been captured.",
     "Where an official full title or an exact date has not been verified, the record says so. Descriptive labels are not presented as official treaty names.",
-    "Domestic legislation enabling one-way extradition is documented in relationship details but does not create a blue treaty relationship on its own."
-  ]
+    "Domestic legislation enabling one-way extradition is documented in relationship details but does not create a blue treaty relationship on its own.",
+    "SADC expansion is restricted to 11 parties with United Nations deposit and effective-date evidence. Current later-party deposits, amendment participation and national implementation remain incomplete. Zimbabwe’s 2021 state report and Mozambique-related case law are leads, not yet incorporated into the multilateral roster.",
+    "The Riyadh Agreement expansion contains 16 explicitly listed ratifying states. The government-hosted list is historical and undated; further participants, individual effective dates, current reservations and amendment applicability require depositary confirmation.",
+    "ECOWAS Convention A/P.1/8/94 text is verified, but a complete reliable deposit/entry-into-force roster and the effects of subsequent ECOWAS withdrawals were not established. No all-ECOWAS pair expansion is made.",
+    "CIS Minsk/Chisinau and other Arab/African instruments are still unverified in this expansion; regional organisation membership is not treated as treaty participation.",
+    "Five Somalia bilateral treaty relationships are positively documented by the 2025 UNODC review, but original bilateral texts, official titles and dates remain unrecovered; these records visibly retain missing fields.",
+    "Official treaty titles and identifiers are taken from Global Affairs Canada. The page-template Date modified footer is not used as the legal status date. Each record states when it was consulted.",
+    "An instrument amendment is shown for research depth but partner counts must deduplicate countries.",
+    "Current in-force status is sourced; this is not a certificate that every legal condition, reservation, amendment and domestic rule has been independently audited. No relationship in this expansion is labelled comprehensively verified.",
+    "No jurisdiction has a certified complete inventory; fully audited pair reviews are not yet complete. Positive sourced applicability and exhaustive legal verification are different measures.",
+    "Nationality profiles cover 13 jurisdictions. All other nationality rules remain unverified; France and the United States have explicitly documented current-source access limitations."
+  ],
+  "lastModified": "2026-10-22",
+  "version": "3.0",
+  "pairReviews": {},
+  "countryCoverage": {}
 };

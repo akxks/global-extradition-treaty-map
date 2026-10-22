@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /geo/
+Disallow: /country.json
+Disallow: /tools/
+Sitemap: https://global-extradition-treaty-map.netlify.app/sitemap.xml

@@ -1,102 +1,60 @@
-/* Static, dependency-free relationship engine and user interface. */
-(function () {
+/* Dependency-free application. All legal classifications come from model.js. */
+(function(){
 'use strict';
-const data=window.TREATY_DATA;
-const key=(a,b)=>[a,b].sort().join('|');
-const activeStatuses=new Set(['in-force','applicable']);
-function codes(t){return t.countries||Object.keys(t.members||{});}
-function matchesRule(r,a,b){return r.bothIn ? r.bothIn.includes(a)&&r.bothIn.includes(b) : r.oneIn&&r.otherIn&&((r.oneIn.includes(a)&&r.otherIn.includes(b))||(r.oneIn.includes(b)&&r.otherIn.includes(a)));}
-function applies(t,a,b){
- if(a===b||!codes(t).includes(a)||!codes(t).includes(b))return false;
- if(t.pairMode==='cross-groups'&&!((t.groups[0].includes(a)&&t.groups[1].includes(b))||(t.groups[0].includes(b)&&t.groups[1].includes(a))))return false;
- return true;
-}
-const pairIndex=new Map();
-for(const t of data.treaties){const cs=codes(t);for(let i=0;i<cs.length;i++)for(let j=i+1;j<cs.length;j++)if(applies(t,cs[i],cs[j])){const k=key(cs[i],cs[j]);if(!pairIndex.has(k))pairIndex.set(k,[]);pairIndex.get(k).push(t);}}
-function relation(a,b){
- const all=(pairIndex.get(key(a,b))||[]).map(t=>{
-  let status=t.status;
-  let replacement=null;
-  if(activeStatuses.has(status)&&t.effectiveDate&&t.effectiveDate>data.referenceDate)status='not-yet-in-force';
-  for(const c of [a,b])if(t.members?.[c]?.effectiveDate>data.referenceDate)status='not-yet-in-force';
-  if((t.excludedPairs||[]).some(p=>key(...p)===key(a,b)))status='unverified';
-  if(activeStatuses.has(status))for(const rule of t.supersededFor||[])if(matchesRule(rule,a,b)){status='superseded';replacement=rule.by;}
-  return {t,status,replacement};
- });
- const active=all.filter(r=>activeStatuses.has(r.status));
- const negative=(data.negatives||[]).find(n=>key(...n.countries)===key(a,b));
- return {all,active,negative,state:a===b?'selected':active.length?'verified':negative?'no-treaty':'unknown'};
-}
-window.TreatyModel={relation,codes,pairIndex};
-if(typeof document==='undefined')return;
-const countries=window.MAP_DATA.countries;
-const byCode=Object.fromEntries(countries.map(c=>[c.code,c]));
+const M=window.TreatyModel,R=window.TreatyRender,D=window.TREATY_DATA,N=window.RESEARCH_DATA;
+const {relation,countries,byCode,typeNames,statusNames,stateNames,norm,name}=M;
+const {esc,fmt,sourceLink}=R;
 const $=id=>document.getElementById(id);
-const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const norm=x=>x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-const typeNames={bilateral:'Bilateral treaty',multilateral:'Multilateral convention',surrender:'Surrender mechanism',arrangement:'Other arrangement'};
-const statusNames={'domestic-basis':'Domestic basis only (one way)','in-force':'In force',applicable:'Applicable','superseded':'Superseded for ordinary requests',suspended:'Suspended',terminated:'Terminated','unverified':'Unverified','not-yet-in-force':'Not yet in force','entry-into-force-unverified':'Entry into force unverified'};
-const stateNames={selected:'Selected country',verified:'Verified legal basis','no-treaty':'No general treaty / arrangement verified',unknown:'Unverified relationship'};
-const fmt=v=>!v?'Not verified in this dataset':/^\d{4}-\d{2}-\d{2}$/.test(v)?new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(v+'T00:00:00Z')):v;
-const name=c=>byCode[c]?.name||c;
 const options=cs=>cs.map(c=>`<option value="${esc(c.code)}">${esc(c.name)}</option>`).join('');
-const sourceLink=s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title||'Official source')}</a>`;
-let selected=byCode[new URLSearchParams(location.search).get('country')]?.code||'HU';
-let partner=null,rows=[];
+const storage={get(k){try{return localStorage.getItem(k);}catch(_){return null;}},set(k,v){try{localStorage.setItem(k,v);}catch(_){}},remove(k){try{localStorage.removeItem(k);}catch(_){}}};
+const params=new URLSearchParams(location.search),saved=storage.get('extradition-country');
+let selected=M.initialCountry(params,saved,null),partner=null,rows=[],selectionVersion=0,legalReady=false;
 function fillSelector(query=''){
- const q=norm(query.trim());const result=countries.filter(c=>!q||norm([c.name,c.code,...c.aliases].join(' ')).includes(q));
- $('country-selector').innerHTML=options(result);$('country-selector').value=selected;
+ const result=M.search(query);$('country-selector').innerHTML=options(result);$('country-selector').value=selected;
  if(result.length&&!result.some(c=>c.code===selected))$('country-selector').selectedIndex=0;
- $('search-status').textContent=q?`${result.length} matching countries. Choose one or press Enter.`:'';
- return result;
+ $('search-status').textContent=query?`${result.length} matching countries. Choose one or press Enter.`:'';return result;
 }
-function selectCountry(code){
- if(!byCode[code])return;
- selected=code;partner=null;fillSelector();$('country-search').value='';$('table-search').value='';
- const url=new URL(location.href);url.searchParams.set('country',selected);history.replaceState(null,'',url);
- const relations=new Map(countries.map(c=>[c.code,relation(selected,c.code)]));
- document.querySelectorAll('#world-map [data-code]').forEach(el=>{const c=el.dataset.code,s=relations.get(c)?.state||'unknown';el.setAttribute('class',s);el.setAttribute('aria-label',`${name(c)} — ${stateNames[s]}`);el.querySelector('title').textContent=`${name(c)} — ${stateNames[s]}`;});
- $('map-title').textContent=`Treaty relationships of ${name(selected)}`;
- $('summary-title').textContent=`Extradition treaties of ${name(selected)}`;
- rows=[];for(const c of countries)for(const r of relations.get(c.code).active)rows.push({code:c.code,...r});
- const partners=new Set(rows.map(r=>r.code));const treatyPartners=new Set(rows.filter(r=>['bilateral','multilateral'].includes(r.t.type)).map(r=>r.code));
- const countType=type=>new Set(rows.filter(r=>r.t.type===type).map(r=>type==='bilateral'?r.t.id:r.code)).size;
- const summary=[['Country',name(selected)],['Verified treaty partners',treatyPartners.size],['All verified partners',partners.size],['Bilateral treaties',countType('bilateral')],['Multilateral treaty relationships',countType('multilateral')],['Surrender mechanism partners',countType('surrender')],['Other arrangement partners',countType('arrangement')],['Unverified relationships',countries.filter(c=>c.code!==selected&&relations.get(c.code).state==='unknown').length],['Last researched','22 October 2026']];
- $('summary').innerHTML=summary.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('');
- $('country-note').textContent=(data.countryNotes?.[selected]||'This is a partial inventory. A country absent from the verified table has not been established to have no treaty. Check the official sources before relying on an individual relationship.');
- renderTable();renderRelationship();
+function updateUrl(){const url=new URL(location.href);url.searchParams.set('country',selected);if(partner)url.searchParams.set('partner',partner);else url.searchParams.delete('partner');history.replaceState(null,'',url);}
+function selectCountry(code,manual=true){
+ if(!byCode[code])return;selectionVersion++;selected=code;partner=null;
+ if(manual){storage.set('extradition-country',code);$('location-status').textContent='Your selected country is remembered on this device. Use “Use my detected country” to reset it.';}
+ fillSelector();$('country-search').value='';$('table-search').value='';$('legal-search').value='';legalReady=false;
+ const n=M.network(selected),relations=new Map(n.relationships.map(r=>[r.code,r]));
+ document.querySelectorAll('#world-map [data-code]').forEach(el=>{const c=el.dataset.code,s=c===selected?'selected':relations.get(c)?.state||'unknown';el.setAttribute('class',s);el.setAttribute('aria-label',`${name(c)} — ${stateNames[s]}`);el.querySelector('title').textContent=`${name(c)} — ${stateNames[s]}`;});
+ $('map-title').textContent=`Treaty relationships of ${name(selected)}`;$('summary-title').textContent=`${name(selected)} — Extradition Treaty Overview`;
+ $('quick-overview').innerHTML='<strong>'+esc(name(selected))+'</strong>: '+n.partners.length+' verified partners · '+n.unknown+' unverified relationships. <a href="#country-summary">Read the simple overview</a>';
+ $('summary').innerHTML=R.summary(selected);$('overview-text').textContent=R.overview(selected);
+ $('country-note').textContent=D.countryNotes?.[selected]||'This is a partial inventory. Countries missing from the verified list have not been established to have no treaty. Consult the official sources and qualifications.';
+ $('profile-link').hidden=!N.profiles[selected];$('profile-link').href='/countries/'+R.slug(selected)+'/';
+ rows=[];for(const r of n.relationships)for(const x of r.active)rows.push({code:r.code,...x});
+ updateUrl();renderTable();renderRelationship();if($('country-legal').open)renderLegal();else $('country-legal-records').replaceChildren();
 }
 function renderTable(){
- const q=norm($('table-search').value.trim());const filtered=rows.filter(r=>norm(name(r.code)+' '+r.t.name+' '+(r.t.displayName||'')+' '+typeNames[r.t.type]).includes(q));
+ const q=norm($('table-search').value);const filtered=rows.filter(r=>norm(name(r.code)+' '+r.t.name+' '+(r.t.displayName||'')+' '+typeNames[r.t.type]).includes(q));
  filtered.sort((a,b)=>name(a.code).localeCompare(name(b.code),'en')||a.t.name.localeCompare(b.t.name,'en'));
- $('treaty-rows').innerHTML=filtered.map(r=>`<tr><td><button class="text-link" data-partner="${esc(r.code)}">${esc(name(r.code))}</button></td><td>${esc(r.t.displayName||r.t.name)}${r.t.officialTitle===false?'<span class="status-note">Descriptive label; official title not transcribed.</span>':''}${r.t.limitedScope?'<span class="status-note">Limited scope — see details.</span>':''}</td><td>${esc(typeNames[r.t.type]||r.t.type)}</td><td>${esc(statusNames[r.status]||r.status)}</td></tr>`).join('');
- $('empty-table').hidden=filtered.length>0;$('table-count').textContent=`${new Set(filtered.map(r=>r.code)).size} partners · ${filtered.length} agreement relationships shown`;
+ $('treaty-rows').innerHTML=filtered.map(r=>`<tr data-table-partner="${esc(r.code)}"><td><button class="text-link" data-partner="${esc(r.code)}">${esc(name(r.code))}</button></td><td>${esc(r.t.displayName||r.t.name)}${r.t.officialTitle===false?'<span class="status-note">Incomplete: official title not transcribed.</span>':''}${r.t.limitedScope?'<span class="status-note">Scope qualification — inspect details.</span>':''}</td><td>${esc(typeNames[r.t.type])}</td><td>${esc(statusNames[r.status])}</td></tr>`).join('');
+ $('empty-table').hidden=filtered.length>0;$('table-count').textContent=`${new Set(filtered.map(r=>r.code)).size} partners · ${filtered.length} applicable instrument relationships shown`;
 }
-function detailsMarkup(r){
- const t=r.t;const sources=(t.sources||[]).map(id=>data.sources[id]).filter(Boolean);
- const members=[selected,partner].map(c=>t.members?.[c]?`<dt>${esc(name(c))}: applicable dates</dt><dd>${esc(t.members[c].effectiveDate?fmt(t.members[c].effectiveDate):'See implementation dates and source')}${t.members[c].nationalLegislationDates?'<br>National legislation: '+t.members[c].nationalLegislationDates.map(fmt).map(esc).join('; '):''}${t.members[c].signatureDate?'<br>Signature: '+esc(fmt(t.members[c].signatureDate)):''}</dd>`:'').join('');
- const notes=(t.notes||[]).filter(Boolean);
- const catalogue=(t.catalogueInstruments||[]).length>1?'<details><summary>Additional entries in the official treaty catalogue</summary><p class="subtle">The source lists these instruments and dates. Supplements and historical entries are not independently counted as current treaties.</p><ul>'+t.catalogueInstruments.map(c=>'<li>'+esc(c.citation||'Citation not recorded')+' — signed: '+esc(c.signedAsListed||'not recorded')+'; entered into force as listed: '+esc(c.effectiveAsListed||'not recorded')+'</li>').join('')+'</ul></details>':'';
- return `<article class="agreement"><h3>${esc(t.displayName||t.name)}</h3><dl><dt>${t.officialTitle===false?'Title verification':'Official treaty / instrument name'}</dt><dd>${t.officialTitle===false?'The official source confirms the relationship; the complete instrument title has not been transcribed.':esc(t.name)}</dd><dt>Type</dt><dd>${esc(typeNames[t.type]||t.type)}</dd><dt>Signed${t.adoptionDate?' / adopted':''}</dt><dd>${esc(fmt(t.signatureDate||t.adoptionDate))}${t.adoptionDate?' (adoption)':''}</dd><dt>Entered into force</dt><dd>${esc(fmt(t.effectiveDate))}${t.type==='multilateral'||t.type==='surrender'?' (instrument; see country dates below)':''}</dd>${t.provisionalApplicationDate?`<dt>Provisionally applied</dt><dd>${esc(fmt(t.provisionalApplicationDate))}</dd>`:''}${members}<dt>Current status</dt><dd>${esc(statusNames[r.status]||r.status)}${r.replacement?' — see '+esc(data.treaties.find(x=>x.id===r.replacement)?.name||r.replacement):''}</dd><dt>Legal basis</dt><dd>${esc(t.description)}</dd>${t.limitedScope?`<dt>Scope</dt><dd>${esc(t.limitedScope)}</dd>`:''}<dt>Official source${sources.length>1?'s':''}</dt><dd>${sources.map(sourceLink).join('<br>')}</dd><dt>Source vintage</dt><dd>${esc(t.sourceDate||sources.map(s=>s.statusDate||s.published).filter(Boolean).join('; ')||'Not dated by publisher; source accessed on research date')}</dd><dt>Last researched</dt><dd>${esc(fmt(t.verifiedAt))}</dd></dl>${notes.map(n=>`<p class="subtle">${esc(n)}</p>`).join('')}${catalogue}</article>`;
+function renderLegal(){
+ const q=norm($('legal-search').value),groups=new Map();
+ for(const r of M.network(selected).relationships)for(const x of r.all){if(!groups.has(x.t.id))groups.set(x.t.id,{record:x,activePartners:[]});if(M.activeStatuses.has(x.status)){groups.get(x.t.id).record=x;groups.get(x.t.id).activePartners.push(r.code);}}
+ const filtered=[...groups.values()].filter(g=>norm(JSON.stringify(g.record.t)).includes(q));
+ $('country-legal-records').innerHTML=filtered.map(g=>`<div><p class="subtle">${g.activePartners.length?'Applicable in this dataset with: '+g.activePartners.map(c=>`<button class="text-link" data-partner="${esc(c)}">${esc(name(c))}</button>`).join(', '):'Excluded from active partner counts.'} Status may differ by partner; inspect a relationship for replacement rules.</p>${R.instrument(g.record,selected,null).replace('id="record-','id="country-record-')}</div>`).join('')||'<p>No legal records match this search.</p>';
+ $('legal-count').textContent=`${filtered.length} instrument records shown, including inactive and incomplete records.`;legalReady=true;
 }
 function renderRelationship(){
  $('relationship-title').textContent=partner?`Extradition relationship: ${name(selected)} — ${name(partner)}`:'Relationship details';
  let html=`<form id="pair-form"><label for="partner-selector">Inspect any relationship </label><select id="partner-selector"><option value="">Choose a partner</option>${options(countries.filter(c=>c.code!==selected))}</select> <button type="submit">View relationship</button></form>`;
- if(!partner)html+='<p>Select a blue country or a partner in the table to inspect the legal basis and official sources.</p>';
- else {
-  const rel=relation(selected,partner);
-  html+=`<p><button class="text-link" data-select="${esc(partner)}">Select ${esc(name(partner))} as the main country</button></p>`;
-  if(rel.negative&&!rel.active.length)html+=`<p class="note"><strong>No general treaty / arrangement verified.</strong> ${esc(rel.negative.description)} This does not rule out case-specific extradition or offence-specific conventions. ${sourceLink(data.sources[rel.negative.source])}</p>`;
-  if(!rel.active.length&&!rel.negative)html+='<p class="note"><strong>Unverified relationship.</strong> This dataset does not establish a currently applicable legal basis for this pair. This is a research gap, not a finding that no treaty exists.</p>';
-  if(rel.active.length)html+='<p>These records establish a legal basis within the stated scope. Individual requests remain subject to applicable safeguards, reservations and domestic law.</p>';
-  html+=rel.active.map(detailsMarkup).join('');
-  const inactive=rel.all.filter(r=>!activeStatuses.has(r.status));
-  if(inactive.length)html+='<h3>Other recorded instruments</h3><p class="subtle">Excluded from the active table and partner counts.</p>'+inactive.map(detailsMarkup).join('');
- }
- $('relationship-content').innerHTML=html;$('partner-selector').value=partner||'';
- $('pair-form').addEventListener('submit',e=>{e.preventDefault();if($('partner-selector').value)showPartner($('partner-selector').value,false);});
+ if(!partner)html+='<p>Select a blue or purple country, or a partner in the table, to see the legal basis and official sources.</p>';
+ else{const rel=relation(selected,partner);html+=`<p><button class="text-link" data-select="${esc(partner)}">Select ${esc(name(partner))} as the main country</button></p>`;
+ if(rel.negative&&!rel.active.length)html+=`<p class="note"><strong>Verified absence of a general treaty / arrangement.</strong> ${esc(rel.negative.description)} This does not rule out case-specific extradition or offence-specific conventions. ${sourceLink(D.sources[rel.negative.source])}</p>`;
+ if(!rel.active.length&&!rel.negative)html+='<p class="note"><strong>Unverified relationship.</strong> No currently applicable basis is established in this dataset for this pair. This is a research gap, not a finding that no treaty exists.</p>';
+ if(rel.active.length)html+='<p>These records establish a legal basis within the stated scope. Safeguards, reservations, nationality rules and domestic law can still restrict an individual request.</p>';
+ html+=rel.active.map(r=>R.instrument(r,selected,partner).replace('id="record-','id="pair-record-')).join('');
+ const inactive=rel.all.filter(r=>!M.activeStatuses.has(r.status));if(inactive.length)html+='<h3>Other recorded instruments</h3><p class="subtle">Excluded from active partner counts.</p>'+inactive.map(r=>R.instrument(r,selected,partner).replace('id="record-','id="pair-record-')).join('');}
+ $('relationship-content').innerHTML=html;$('partner-selector').value=partner||'';$('pair-form').addEventListener('submit',e=>{e.preventDefault();if($('partner-selector').value)showPartner($('partner-selector').value,false);});
 }
-function showPartner(code,scroll=true){partner=code;renderRelationship();if(scroll){$('relationship').scrollIntoView({behavior:'instant',block:'start'});$('relationship').focus({preventScroll:true});}}
+function showPartner(code,scroll=true){if(code===selected||!byCode[code])return;partner=code;renderRelationship();updateUrl();if(scroll){$('relationship').scrollIntoView({behavior:'instant',block:'start'});$('relationship').focus({preventScroll:true});}}
 function mapClick(code){if(code===selected)return;if(relation(selected,code).active.length)showPartner(code);else selectCountry(code);}
 const svg=$('world-map'),ns='http://www.w3.org/2000/svg';
 for(const s of window.MAP_DATA.shapes){const el=document.createElementNS(ns,'path');el.setAttribute('d',s.d);el.dataset.code=s.code;el.setAttribute('tabindex','0');el.setAttribute('role','button');el.append(document.createElementNS(ns,'title'));$('countries').append(el);}
@@ -113,13 +71,49 @@ svg.addEventListener('pointermove',e=>{
 });
 svg.addEventListener('pointerup',e=>{if(drag&&!dragged){const target=document.elementFromPoint(e.clientX,e.clientY)?.closest('#world-map [data-code]');if(target)mapClick(target.dataset.code);}drag=null;});svg.addEventListener('pointercancel',()=>{drag=null;});svg.addEventListener('pointerleave',()=>{$('map-tooltip').hidden=true;});
 svg.addEventListener('keydown',e=>{const hit=e.target.closest('[data-code]');if(hit&&['Enter',' '].includes(e.key)){e.preventDefault();mapClick(hit.dataset.code);}});
-$('country-selector').addEventListener('change',e=>selectCountry(e.target.value));$('country-search').addEventListener('input',e=>{const results=fillSelector(e.target.value);const exact=results.find(c=>norm(c.name)===norm(e.target.value));if(exact)selectCountry(exact.code);});$('country-search').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const results=fillSelector(e.target.value);if(results.length){const exact=results.find(c=>c.code.toLowerCase()===e.target.value.trim().toLowerCase());selectCountry(exact?.code||$('country-selector').value||results[0].code);}}});$('clear-search').addEventListener('click',()=>{$('country-search').value='';fillSelector();$('country-search').focus();});$('table-search').addEventListener('input',renderTable);
+$('country-selector').addEventListener('change',e=>selectCountry(e.target.value));
+$('country-search').addEventListener('input',e=>{const q=e.target.value;fillSelector(q);const exact=countries.find(c=>norm(c.name)===norm(q));if(exact)selectCountry(exact.code);});
+$('country-search').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const result=fillSelector(e.target.value);const exact=M.resolve(e.target.value);if(exact||result.length)selectCountry(exact||$('country-selector').value||result[0].code);}});
+$('clear-search').addEventListener('click',()=>{$('country-search').value='';fillSelector();$('country-search').focus();});$('table-search').addEventListener('input',renderTable);
+$('country-legal').addEventListener('toggle',()=>{if($('country-legal').open&&!legalReady)renderLegal();});$('legal-search').addEventListener('input',renderLegal);
 document.addEventListener('click',e=>{const p=e.target.closest('[data-partner]');if(p)showPartner(p.dataset.partner);const s=e.target.closest('[data-select]');if(s){selectCountry(s.dataset.select);$('country-selector').scrollIntoView({behavior:'instant'});}});
-const covered=new Set(),uniquePairs=new Set();for(const [k] of pairIndex){const [a,b]=k.split('|');if(relation(a,b).active.length){covered.add(a);covered.add(b);uniquePairs.add(k);}}
-$('coverage').textContent=`${uniquePairs.size.toLocaleString('en-GB')} verified country pairs in this dataset.`;
-$('global-statistics').textContent=`${countries.length} countries and jurisdictions are selectable, including all 195 UN member and observer states. ${covered.size} have at least one verified relationship; ${uniquePairs.size.toLocaleString('en-GB')} unique pairs have a recorded active basis. No country's complete treaty network is certified. Yellow pairs have not received a conclusive exhaustive legal review.`;
-$('research-gaps').innerHTML=data.gaps.map(x=>`<li>${esc(x)}</li>`).join('');
-$('coverage-index').innerHTML=countries.map(c=>`<div><button class="text-link" data-select="${esc(c.code)}">${esc(c.name)}</button>: ${covered.has(c.code)?'records found; partial':'no active records; incomplete'}</div>`).join('');
-$('source-list').innerHTML=Object.values(data.sources).filter(s=>s.featured).map(s=>`<li>${sourceLink(s)}${s.statusDate||s.published?' — '+esc(s.statusDate||s.published):''}</li>`).join('');
-selectCountry(selected);
+function renderSources(){const q=norm($('source-search').value);$('source-list').innerHTML=Object.values(D.sources).filter(s=>norm(s.title+' '+s.url).includes(q)).map(s=>`<li>${sourceLink(s)}${s.statusDate||s.published?' — source dated '+esc(s.statusDate||s.published):''}</li>`).join('');}
+$('source-search').addEventListener('input',renderSources);renderSources();
+$('coverage-index').innerHTML=countries.map(c=>`<div><button class="text-link" data-select="${esc(c.code)}">${esc(c.name)}</button>: ${M.network(c.code).partners.length||'no'} documented partners; partial</div>`).join('');
+const ranking=M.rankings();$('largest-ranking').innerHTML=R.rankingTable(ranking.provisional);$('smallest-ranking').innerHTML=R.rankingTable(ranking.definitive,10,true);$('provisional-smallest').innerHTML=R.rankingTable(ranking.provisional,10,true);
+async function copyLink(url,status){try{await navigator.clipboard.writeText(url);$(status).textContent='Link copied.';}catch(_){$(status).innerHTML=`Copy this link: <a href="${esc(url)}">${esc(url)}</a>`;}}
+$('share-country').addEventListener('click',()=>copyLink(location.origin+'/?country='+selected+ (partner?'&partner='+partner:''),'share-status'));
+$('export-csv').addEventListener('click',()=>{const blob=new Blob([M.csv(selected)],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`extradition-${selected}-${D.referenceDate}.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+// Comparisons count only UN member and observer states, not dependent territories.
+for(const id of ['compare-a','compare-b','passport-selector'])$(id).innerHTML=options(id==='passport-selector'?M.states:countries);
+const comparisonParams=(params.get('compare')||'').split(',');$('compare-a').value=M.resolve(comparisonParams[0])||selected;$('compare-b').value=M.resolve(comparisonParams[1])||($('compare-a').value==='GB'?'US':'GB');
+function comparisonSources(a,b,cs){return cs.map(c=>{const record=relation(a,c).active;return `<li>${R.countryLink(c)}<br><span class="subtle">${record.map(x=>esc(typeNames[x.t.type])+': '+esc(x.t.displayName||x.t.name)+' — '+(x.t.sources||[]).map(id=>sourceLink(D.sources[id])).join('; ')).join('<br>')}${b?'<br>'+esc(name(b))+': '+relation(b,c).active.map(x=>esc(typeNames[x.t.type])+': '+esc(x.t.displayName||x.t.name)+' — '+(x.t.sources||[]).map(id=>sourceLink(D.sources[id])).join('; ')).join('<br>'):''}</span></li>`;}).join('');}
+function renderComparison(update=true){
+ const a=$('compare-a').value,b=$('compare-b').value;
+ if(a===b){$('comparison-result').innerHTML='<p class="note">Choose two different countries to compare.</p>';return;}
+ const c=M.comparison(a,b),metrics=[['Verified state partners',c.left.partners.length,c.right.partners.length],['Bilateral treaty partners',c.left.typePartners.bilateral.length,c.right.typePartners.bilateral.length],['Multilateral treaty partners',c.left.typePartners.multilateral.length,c.right.typePartners.multilateral.length],['Surrender mechanism partners',c.left.typePartners.surrender.length,c.right.typePartners.surrender.length],['Other arrangement partners',c.left.typePartners.arrangement.length,c.right.typePartners.arrangement.length],['Unverified state relationships',c.left.unknown,c.right.unknown]];
+ $('comparison-result').innerHTML=`<h3>${esc(name(a))} and ${esc(name(b))}</h3><div class="table-scroll"><table><thead><tr><th>Documented network</th><th>${esc(name(a))}</th><th>${esc(name(b))}</th></tr></thead><tbody>${metrics.map(r=>'<tr>'+r.map((v,i)=>i?'<td>'+esc(v)+'</td>':'<th scope="row">'+esc(v)+'</th>').join('')+'</tr>').join('')}</tbody></table></div><p><strong>${c.shared.length} shared third-state partners</strong> · ${c.leftOnly.length} only documented for ${esc(name(a))} · ${c.rightOnly.length} only documented for ${esc(name(b))}.</p><p class="subtle">Both inventories are partial. The two selected subjects are excluded from shared/unique third-state lists. A mutual relationship, where verified, is still included in each total.</p>${[[`Shared partners (${c.shared.length})`,c.shared,a,b],[`Only documented for ${name(a)} (${c.leftOnly.length})`,c.leftOnly,a,null],[`Only documented for ${name(b)} (${c.rightOnly.length})`,c.rightOnly,b,null]].map(([title,cs,x,y])=>`<details><summary>${esc(title)} — agreements and sources</summary><ul class="source-list">${comparisonSources(x,y,cs)||'<li>No documented partners in this category.</li>'}</ul></details>`).join('')}`;
+ if(update){const url=new URL(location.href);url.searchParams.set('compare',a+','+b);url.hash='comparison';history.replaceState(null,'',url);}
+}
+$('comparison-form').addEventListener('submit',e=>{e.preventDefault();renderComparison();});$('share-comparison').addEventListener('click',()=>{if($('compare-a').value===$('compare-b').value){$('comparison-status').textContent='Choose two different countries first.';return;}renderComparison();copyLink(location.origin+'/?country='+$('compare-a').value+'&compare='+$('compare-a').value+','+$('compare-b').value+'#comparison','comparison-status');});renderComparison(false);
+const passports=new Set();
+function renderPassports(){
+ $('passport-list').innerHTML=[...passports].map(c=>`<li>${esc(name(c))} <button type="button" data-remove-passport="${esc(c)}" aria-label="Remove ${esc(name(c))} nationality">Remove</button></li>`).join('');
+ $('passport-results').innerHTML=[...passports].map(c=>{const p=N.nationality[c];return `<article class="agreement"><h3>${esc(name(c))}: nationality rules</h3>${p?`<p>${esc(p.summary)}</p><p class="note">${esc(p.context||'This rule concerns a request made to this state. Nationality is not a guarantee against extradition from another jurisdiction.')}</p><details><summary>Legal rules, exceptions and official sources</summary>${(p.rules||[]).map(x=>'<p>'+esc(typeof x==='string'?x:x.rule||JSON.stringify(x))+'</p>').join('')}<p>${esc(R.text(p.exceptions))}</p><p>${esc(R.text(p.qualifications))}</p><p>${esc(p.legalBasis||'See the cited provisions.')}</p><ul class="source-list">${(p.sources||[]).map(s=>'<li>'+sourceLink(typeof s==='string'?{url:s,title:'Official law / government source'}:s)+'</li>').join('')}</ul><p class="subtle">Last verification recorded: ${esc(fmt(p.verifiedAt))}. Changes and the facts of a case can affect the result.</p></details>`:'<p class="note">Unverified: nationality restrictions and exceptions for this jurisdiction have not yet been researched in this feature. No conclusion about protection from extradition can be drawn.</p>'}</article>`;}).join('');
+}
+$('passport-form').addEventListener('submit',e=>{e.preventDefault();passports.add($('passport-selector').value);renderPassports();});$('passport-list').addEventListener('click',e=>{const b=e.target.closest('[data-remove-passport]');if(b){passports.delete(b.dataset.removePassport);renderPassports();}});
+async function detectCountry(force=false){
+ if(force){storage.remove('extradition-country');selectionVersion++;}const version=selectionVersion;
+ $('location-status').textContent='Detecting an approximate country through this website’s host…';const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),3500);
+ try{const response=await fetch('/country.json',{cache:'no-store',credentials:'omit',signal:controller.signal});if(!response.ok)throw new Error('unavailable');const result=await response.json();const code=M.resolve(result.country);
+ if(version!==selectionVersion)return;
+ if(!code){$('location-status').textContent='Country detection is unavailable. Choose a country above; the map is fully functional.';return;}
+ selectCountry(code,false);$('location-status').textContent=`Approximate detected country: ${name(code)}. This may reflect a VPN or network location. You can change it above.`;
+ }catch(_){if(version===selectionVersion)$('location-status').textContent='Country detection could not complete. Choose a country above; no location permission is needed.';}finally{clearTimeout(timer);}
+}
+$('detect-country').addEventListener('click',()=>detectCountry(true));
+selectCountry(selected,false);const initialPartner=M.resolve(params.get('partner'));if(initialPartner)showPartner(initialPartner,false);
+if(M.resolve(params.get('country'))||M.resolve(comparisonParams[0]))$('location-status').textContent='Country chosen by this shared link. IP detection will not override it.';
+else if(M.resolve(saved))$('location-status').textContent='Using your saved country preference. IP detection will not override it.';
+else detectCountry();
 })();

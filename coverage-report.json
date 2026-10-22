@@ -1,0 +1,17 @@
+{
+  "referenceDate": "2026-10-22",
+  "lastModified": "2026-10-22",
+  "active": 1934,
+  "negative": 2,
+  "unknown": 27225,
+  "fullyVerified": 0,
+  "sovereignPairs": 1931,
+  "covered": 168,
+  "jurisdictions": 242,
+  "states": 195,
+  "total": 29161,
+  "profiles": 115,
+  "nationalityProfiles": 13,
+  "completeCountryInventories": 0,
+  "sourceEntries": 409
+}

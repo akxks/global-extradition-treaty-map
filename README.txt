@@ -1,37 +1,73 @@
-GLOBAL EXTRADITION TREATY MAP — 22 OCTOBER 2026
+GLOBAL EXTRADITION TREATY MAP — VERSION 3
+Legal snapshot: 22 October 2026
+Live: https://global-extradition-treaty-map.netlify.app/
+Repository: https://github.com/akxks/global-extradition-treaty-map
 
-Open index.html in a modern browser, or publish this directory on any static host.
-No build command, package manager, API keys, server, framework or external runtime dependency is required.
+A static HTML/CSS/vanilla-JavaScript educational reference. No runtime package,
+framework, application server, API key, analytics tracker or paid dependency.
+Host this directory on Netlify. The existing GitHub-linked deployment publishes
+main with publish directory '.' and no build command.
+
+OPEN / DEVELOP
+Serve the directory with any static HTTP server, for example:
+  python3 -m http.server 8765
+The map works on ordinary static hosting. Country detection needs Netlify CDN
+Country redirect rules; other hosts return the static null fallback.
 
 FILES
-index.html — reference page
-style.css — responsive, traditional styling
-script.js — relationship engine, SVG rendering and controls
-treaties.js — editable structured treaty data, sources and explicit research gaps
-map-data.js — preprojected Natural Earth 1:50m political boundaries (public domain)
-netlify.toml — static hosting configuration
-validation.test.cjs — optional offline integrity checks (run with Node.js)
+index.html / style.css / theme.js / script.js — interface and preferences
+model.js — shared, cached relationship classification, counts, CSV, comparisons
+render.js — shared legal-record and summary presentation
+map-data.js — Natural Earth 1:50m SVG paths, Equal Earth projection; 242 selectors
+treaties.js — sourced instruments, membership, exclusions, status and dates
+research.js — nationality profiles and country-publication metadata
+countries/ — meaningful, pre-rendered HTML country profiles
+methodology/ — sources, scope, counting and privacy
+coverage-report.json — calculated coverage statistics
+assets/ — real political-map social PNG (1200 x 630), SVG source and favicon
+geo/ / country.json / _redirects — country-only static GeoIP routing on Netlify
+.github/ISSUE_TEMPLATE/data-correction.yml — evidence-based correction reports
 
-DATA COVERAGE
-All 193 UN member states and both UN observers are supported, together with separately mapped jurisdictions. This is a partial research edition, not a definitive worldwide treaty register. Country-by-country coverage and gaps are displayed in the page. Research date records source access, not a certification of every legal change through that date. Older source vintages are disclosed per record.
+UPDATE DATA
+Preserve record IDs and source vintages. Never infer absence from an empty
+inventory or participation from organisation membership. Add official sources,
+individual effective dates where known, exclusions and legal qualifications.
+Do not mark a pair or country complete without an exhaustive documented audit.
+Preserve original verification dates unless genuinely re-reviewed.
 
-Types: bilateral treaty; multilateral convention; surrender mechanism; other arrangement.
-Blue: a recorded active basis. Yellow: unverified relationship. Grey: positive, narrowly scoped evidence of no general standing treaty/arrangement. Green: selected country.
-Domestic one-way regulations alone do not generate blue. Signed-only and suspended records do not generate blue. Special mechanisms supersede older conventional provisions for ordinary requests, with older records retained in details.
+Optional dependency-free authoring commands (Node is not needed at runtime):
+  node tools/build-static.cjs
+  node validation.test.cjs
+  node tools/check-static.cjs
+The generator recalculates profiles, sitemap, metadata, coverage and GeoIP rules.
+The social PNG is committed and ready to serve. If replacing its SVG artwork,
+render assets/social-map.svg to a 1200 x 630 PNG with a standard SVG renderer,
+then inspect the result and rerun the static checks. No image library is loaded
+by the website. Version asset query strings after changes to avoid stale caches.
 
-NOT A PREDICTION OF EXTRADITION
-Domestic law, reciprocity and offence-specific conventions can permit extradition without a general treaty. Nationality, human rights, reservations and procedural safeguards can prevent it despite a treaty. Practical operation, reservations, amendments, transitional cases and territorial extensions are not exhaustively researched. Each pair must be checked against its official sources for a real matter.
+COVERAGE
+Version 3 records 1,934 active unordered pairs, 529 instruments (including
+inactive/domestic-only records), 242 selectable jurisdictions, and 168
+jurisdictions with at least one positive active relationship. There are 115
+substantive static country profiles and 13 nationality-law profiles.
+27,225 pairs remain unverified; two narrow negative classifications are sourced.
+No complete country inventory or fully audited pair review is certified.
+The 227 new active pairs preserve all 1,707 previously recorded active pairs.
 
-EDITING
-Edit window.TREATY_DATA in treaties.js. Unknown dates are null; do not substitute signature, ratification, publication or access dates for entry into force. Official full titles not transcribed must have officialTitle:false. A missing record means unknown, never a verified negative. Multilateral members are stored once. cross-groups instruments apply only between groups. supersededFor rules identify the current ordinary route. negatives require a source and explicit scope.
+Rankings include only 193 UN members and two observers as state partners.
+Totals deduplicate partners, even when several instruments apply. Definitive
+smallest-network rankings are intentionally unavailable while all inventories
+are partial. Provisional counts are not claims of real-world network size.
+Read /methodology/ for qualifications and source-access limitations.
 
-MAP
-Natural Earth public-domain boundaries:
-https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson
-Equal Earth projection is applied during preparation, with no mapping library at runtime.
-Small states use enlarged point markers; Gibraltar is represented by an approximate location marker because no polygon is present in this map scale.
-ISO alpha-2 codes link geography to data. Kosovo uses XK; unresolved geographical features have X-prefixed internal IDs. No sovereign treaty is automatically extended to separately identified territories. Generalised borders are not a statement on sovereignty.
+PRIVACY
+Netlify routes a same-origin country endpoint to static JSON. The application
+receives only a country code, does not request GPS and stores no IP address.
+Normal hosting infrastructure processes connection metadata. Manual country
+and appearance preferences are saved locally. Passport choices stay in memory.
+Explicit links override detection. No external geolocation vendor is contacted.
 
-HOSTING
-Netlify: publish directory '.', leave build command empty. No functions, forms, databases or paid add-ons are used. Hosting/account limits remain those of the selected Netlify plan.
-GitHub: repository contains the complete static site. No secrets are needed or included.
+MAP LICENCE / TERRITORY
+Natural Earth data is public domain. Borders are generalised; enlarged dots
+keep small jurisdictions selectable. Disputed borders express no political
+position. Territories do not automatically inherit sovereign treaty records.
